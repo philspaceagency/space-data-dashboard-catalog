@@ -1,0 +1,668 @@
+{
+    "catalog": [
+      {
+        "id": "PHILSA-001",
+        "type": "group",
+        "name": "National Datasets",
+        "description": "\u003Cp\u003EThe Space Data Catalogue consists of the following data layers:\u003C/p\u003E\u003Ctable class='editorDemoTable'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd\u003E\u003Cstrong\u003ELayer Name\u003C/strong\u003E\u003C/td\u003E\u003Ctd\u003E\u003Cstrong\u003ECategory\u003C/strong\u003E\u003C/td\u003E\u003Ctd\u003E\u003Cstrong\u003EType\u003C/strong\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd\u003EProvincial Boundaries\u003C/td\u003E\u003Ctd\u003EBoundaries\u003C/td\u003E\u003Ctd\u003EVector\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd\u003ERegional Boundaries\u003C/td\u003E\u003Ctd\u003EBoundaries\u003C/td\u003E\u003Ctd\u003EVector\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd\u003EUTFVI for NCR\u003C/td\u003E\u003Ctd\u003EClimate\u003C/td\u003E\u003Ctd\u003ERaster\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd\u003EShip Monitoring\u003C/td\u003E\u003Ctd\u003EMonitoring\u003C/td\u003E\u003Ctd\u003EVector\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E\u003Cp\u003EFor inquiries and comments on the Space Data Catalogue, you may contact \u003Ca href='mailto:sdmad@philsa.gov.ph'\u003Esdmad@philsa.gov.ph\u003C/a\u003E.\u003C/p\u003E",
+        "isOpen": true,
+        "members": [
+          {
+            "id": "01000000",
+            "type": "group",
+            "name": "Climate",
+            "members": [
+              {
+                "id": "01010000",
+                "type": "group",
+                "name": "Drought",
+                "members": [
+                  {
+                    "id": "01010100",
+                    "type": "cog",
+                    "name": "December 2023 Palawan Drought",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Environment/CDI-PH-202312_cog.tif",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "items": [
+                          {
+                            "title": "Normal",
+                            "color": "#25d624"
+                          },
+                          {
+                            "title": "Mild",
+                            "color": "#f5e963"
+                          },
+                          {
+                            "title": "Moderate",
+                            "color": "#fd9e44"
+                          },
+                          {
+                            "title": "Severe",
+                            "color": "#de5d1c"
+                          },
+                          {
+                            "title": "Extreme",
+                            "color": "#ed1b1e"
+                          }
+                        ]
+                      }
+                    ],
+                    "description": "\u003Ctable width='815'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETYPE\u003C/td\u003E\u003Ctd width='591'\u003ECombined Drought Index\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='591'\u003EIndex Maps\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETITLE\u003C/td\u003E\u003Ctd width='591'\u003ECombined Drought Index (CDI)&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='591'\u003EMaps processed by Philippine Space Agency (PhilSA). The datasets used were GPM rainfall, MODIS NDVI, and MODIS LST. The datasets are processed in Python with machine learning to forecast Combined Drought Index Maps. The maps were processed monthly from December 2023 to April 2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EPURPOSE\u003C/td\u003E\u003Ctd width='591'\u003EThe Combined Drought Index is a monitoring index to provide insights to the severity, location, timing and duration of drought over a region.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='591'\u003E01/12/2023 - 31/12/2023\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='591'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EREGIONS\u003C/td\u003E\u003Ctd width='591'\u003EPalawan\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='591'\u003EA combination of GPM Rainfall, MODIS NDVI, and MODIS LST used machine learning-based forecasting in Python. The Drought Index is displayed at a 500m spatial resolution.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='591'\u003EEnvironment\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='591'\u003EDrought, NDVI, LST, MODIS, GPM\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EEDITION\u003C/td\u003E\u003Ctd width='591'\u003E1/12/2023\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E"
+                  },
+                  {
+                    "id": "01010200",
+                    "type": "cog",
+                    "name": "January 2024 Palawan Drought",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Environment/CDI-PH-202401_cog.tif",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "items": [
+                          {
+                            "title": "Normal",
+                            "color": "#25d624"
+                          },
+                          {
+                            "title": "Mild",
+                            "color": "#f5e963"
+                          },
+                          {
+                            "title": "Moderate",
+                            "color": "#fd9e44"
+                          },
+                          {
+                            "title": "Severe",
+                            "color": "#de5d1c"
+                          },
+                          {
+                            "title": "Extreme",
+                            "color": "#ed1b1e"
+                          }
+                        ]
+                      }
+                    ],
+                    "description": "\u003Ctable width='815'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETYPE\u003C/td\u003E\u003Ctd width='591'\u003ECombined Drought Index\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='591'\u003EIndex Maps\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETITLE\u003C/td\u003E\u003Ctd width='591'\u003ECombined Drought Index (CDI)&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='591'\u003EMaps processed by Philippine Space Agency (PhilSA). The datasets used were GPM rainfall, MODIS NDVI, and MODIS LST. The datasets are processed in Python with machine learning to forecast Combined Drought Index Maps. The maps were processed monthly from December 2023 to April 2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EPURPOSE\u003C/td\u003E\u003Ctd width='591'\u003EThe Combined Drought Index is a monitoring index to provide insights to the severity, location, timing and duration of drought over a region.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='591'\u003E01/01/2024 - 31/01/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='591'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EREGIONS\u003C/td\u003E\u003Ctd width='591'\u003EPalawan\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='591'\u003EA combination of GPM Rainfall, MODIS NDVI, and MODIS LST used machine learning-based forecasting in Python. The Drought Index is displayed at a 500m spatial resolution.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='591'\u003EEnvironment\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='591'\u003EDrought, NDVI, LST, MODIS, GPM\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EEDITION\u003C/td\u003E\u003Ctd width='591'\u003E1/1/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E"
+                  },
+                  {
+                    "id": "01010300",
+                    "type": "cog",
+                    "name": "February 2024 Palawan Drought",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Environment/CDI-PH-202402_cog.tif",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "items": [
+                          {
+                            "title": "Normal",
+                            "color": "#25d624"
+                          },
+                          {
+                            "title": "Mild",
+                            "color": "#f5e963"
+                          },
+                          {
+                            "title": "Moderate",
+                            "color": "#fd9e44"
+                          },
+                          {
+                            "title": "Severe",
+                            "color": "#de5d1c"
+                          },
+                          {
+                            "title": "Extreme",
+                            "color": "#ed1b1e"
+                          }
+                        ]
+                      }
+                    ],
+                    "description": "\u003Ctable width='815'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETYPE\u003C/td\u003E\u003Ctd width='591'\u003ECombined Drought Index\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='591'\u003EIndex Maps\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETITLE\u003C/td\u003E\u003Ctd width='591'\u003ECombined Drought Index (CDI)&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='591'\u003EMaps processed by Philippine Space Agency (PhilSA). The datasets used were GPM rainfall, MODIS NDVI, and MODIS LST. The datasets are processed in Python with machine learning to forecast Combined Drought Index Maps. The maps were processed monthly from December 2023 to April 2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EPURPOSE\u003C/td\u003E\u003Ctd width='591'\u003EThe Combined Drought Index is a monitoring index to provide insights to the severity, location, timing and duration of drought over a region.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='591'\u003E01/02/2024 - 28/02/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='591'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EREGIONS\u003C/td\u003E\u003Ctd width='591'\u003EPalawan\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='591'\u003EA combination of GPM Rainfall, MODIS NDVI, and MODIS LST used machine learning-based forecasting in Python. The Drought Index is displayed at a 500m spatial resolution.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='591'\u003EEnvironment\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='591'\u003EDrought, NDVI, LST, MODIS, GPM\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EEDITION\u003C/td\u003E\u003Ctd width='591'\u003E1/2/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E"
+                  },
+                  {
+                    "id": "01010400",
+                    "type": "cog",
+                    "name": "March 2024 Palawan Drought",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Environment/CDI-PH-202403_cog.tif",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "items": [
+                          {
+                            "title": "Normal",
+                            "color": "#25d624"
+                          },
+                          {
+                            "title": "Mild",
+                            "color": "#f5e963"
+                          },
+                          {
+                            "title": "Moderate",
+                            "color": "#fd9e44"
+                          },
+                          {
+                            "title": "Severe",
+                            "color": "#de5d1c"
+                          },
+                          {
+                            "title": "Extreme",
+                            "color": "#ed1b1e"
+                          }
+                        ]
+                      }
+                    ],
+                    "description": "\u003Ctable width='815'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETYPE\u003C/td\u003E\u003Ctd width='591'\u003ECombined Drought Index\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='591'\u003EIndex Maps\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETITLE\u003C/td\u003E\u003Ctd width='591'\u003ECombined Drought Index (CDI)&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='591'\u003EMaps processed by Philippine Space Agency (PhilSA). The datasets used were GPM rainfall, MODIS NDVI, and MODIS LST. The datasets are processed in Python with machine learning to forecast Combined Drought Index Maps. The maps were processed monthly from December 2023 to April 2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EPURPOSE\u003C/td\u003E\u003Ctd width='591'\u003EThe Combined Drought Index is a monitoring index to provide insights to the severity, location, timing and duration of drought over a region.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='591'\u003E01/03/2024 - 31/03/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='591'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EREGIONS\u003C/td\u003E\u003Ctd width='591'\u003EPalawan\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='591'\u003EA combination of GPM Rainfall, MODIS NDVI, and MODIS LST used machine learning-based forecasting in Python. The Drought Index is displayed at a 500m spatial resolution.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='591'\u003EEnvironment\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='591'\u003EDrought, NDVI, LST, MODIS, GPM\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EEDITION\u003C/td\u003E\u003Ctd width='591'\u003E1/3/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E"
+                  },
+                  {
+                    "id": "01010500",
+                    "type": "cog",
+                    "name": "April 2024 Palawan Drought",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Environment/CDI-PH-202404_cog.tif",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "items": [
+                          {
+                            "title": "Normal",
+                            "color": "#25d624"
+                          },
+                          {
+                            "title": "Mild",
+                            "color": "#f5e963"
+                          },
+                          {
+                            "title": "Moderate",
+                            "color": "#fd9e44"
+                          },
+                          {
+                            "title": "Severe",
+                            "color": "#de5d1c"
+                          },
+                          {
+                            "title": "Extreme",
+                            "color": "#ed1b1e"
+                          }
+                        ]
+                      }
+                    ],
+                    "description": "\u003Ctable width='815'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETYPE\u003C/td\u003E\u003Ctd width='591'\u003ECombined Drought Index\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='591'\u003EIndex Maps\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETITLE\u003C/td\u003E\u003Ctd width='591'\u003ECombined Drought Index (CDI)&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='591'\u003EMaps processed by Philippine Space Agency (PhilSA). The datasets used were GPM rainfall, MODIS NDVI, and MODIS LST. The datasets are processed in Python with machine learning to forecast Combined Drought Index Maps. The maps were processed monthly from December 2023 to April 2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EPURPOSE\u003C/td\u003E\u003Ctd width='591'\u003EThe Combined Drought Index is a monitoring index to provide insights to the severity, location, timing and duration of drought over a region.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='591'\u003E01/04/2024 - 30/04/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='591'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EREGIONS\u003C/td\u003E\u003Ctd width='591'\u003EPalawan\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='591'\u003EA combination of GPM Rainfall, MODIS NDVI, and MODIS LST used machine learning-based forecasting in Python. The Drought Index is displayed at a 500m spatial resolution.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='591'\u003EEnvironment\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='591'\u003EDrought, NDVI, LST, MODIS, GPM\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EEDITION\u003C/td\u003E\u003Ctd width='591'\u003E1/4/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E"
+                  }
+                ]
+              },
+              {
+                "id": "01020000",
+                "type": "group",
+                "name": "Land Surface Temperature (LST)",
+                "members": [
+                  {
+                    "id": "01020100",
+                    "type": "cog",
+                    "name": "March 06, 2024 Land Surface Temperature (LST)",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Climate/LST/20240306_NCR_LST_rendered-image_cog.tif",
+                    "description": "\u003Ctable width='612'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETYPE\u003C/td\u003E\u003Ctd width='368'\u003EMarch 06, 2024 LST\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='368'\u003EMarch 06, 2024 LST Map\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETITLE\u003C/td\u003E\u003Ctd width='368'\u003EMarch 06, 2024 LST\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='368'\u003EMaps processed by Philippine Space Agency (PhilSA). Data is in Universal Transverse Mercator, Zone 51 N.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EPURPOSE\u003C/td\u003E\u003Ctd width='368'\u003EThe Land Surface Temperature (LST) map of National Capital Region (NCR) shows how “hot” the particular surface would feel to the touch. It also reveals the hot and cold spots of the region during daytime of March 06, 2024.\u003Cbr /\u003E &nbsp;\u003Cbr /\u003ELST plays a key role to better understand the changing Earth climate system because it can provide a coherent picture of how the LST affects the Earth’s ecosystem. Knowing the past and current state of LST and exploring the reasons for the changes have great importance on strengthening disaster monitoring and early warning, agricultural production planning, climate change mitigation, etc.\u003Cbr /\u003E &nbsp;\u003Cbr /\u003E Please note that the map is yet to be validated with ground data.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='368'\u003EMarch 06, 2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='368'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EREGIONS\u003C/td\u003E\u003Ctd width='368'\u003ENational Capital Region\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='368'\u003EClassification\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='368'\u003ENCR, Landsat\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='368'\u003EClimate\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EEDITION\u003C/td\u003E\u003Ctd width='368'\u003E3/6/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "url": "https://api.sdd.philsa.gov.ph/media/lst-legend.png"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "02000000",
+            "type": "group",
+            "name": "Disaster Risk Reduction and Management",
+            "members": [
+              {
+                "id": "02010000",
+                "type": "group",
+                "name": "Flood Impact",
+                "members": [
+                  {
+                    "id": "02010100",
+                    "type": "cog",
+                    "name": "2022 Flood Occurence",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Flood/2022_FloodFrequency_cog.tif",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "items": [
+                          {
+                            "title": "\u003C= 10",
+                            "color": "#2b83ba"
+                          },
+                          {
+                            "title": "10-20",
+                            "color": "#abdda4"
+                          },
+                          {
+                            "title": "20-30",
+                            "color": "#ffffbf"
+                          },
+                          {
+                            "title": "30-40",
+                            "color": "#fdae61"
+                          },
+                          {
+                            "title": "\u003E 40",
+                            "color": "#d7191c"
+                          }
+                        ]
+                      }
+                    ],
+                    "description": "\u003Ctable width='840'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='249'\u003ETYPE\u003C/td\u003E\u003Ctd width='591'\u003EFlood Impact\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='249'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='591'\u003E2022 Flood Frequency Map\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='249'\u003ETITLE\u003C/td\u003E\u003Ctd width='591'\u003EFlood Frequency\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='249'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='591'\u003EMaps processed by Philippine Space Agency (PhilSA). Data is in Universal Transverse Mercator, Zone 51 N.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='249'\u003EPURPOSE\u003C/td\u003E\u003Ctd width='591'\u003EThe purpose of this map classification is to provide essential insights into the frequency of floods, crucial for effective planning, management, and monitoring of flood data nationwide. Derived from Sentinel-1 imagery at a spatial resolution of 15 meters, the dataset covers the period from January to December 2022.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='249'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='591'\u003E01/01/22 - 12/31/22\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='249'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='591'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='249'\u003EREGIONS\u003C/td\u003E\u003Ctd width='591'\u003ENationwide\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='249'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='591'\u003EProduction note for 2022 Flood Frequency Map\u003Cbr /\u003E \u003Cbr /\u003E The Sentinel-1 imagery utilized in this study underwent machine learning-based classification. Initially, a collection of Sentinel-1 images was pre-processed and composited into a single-year dataset. Subsequently, this dataset was classified to derive the annual frequency of floods in the Philippines.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='249'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='591'\u003Eflood impact, flood frequency, flood, Sentinel-1, disaster\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='249'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='591'\u003EDisaster Risk Reduction and Management\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='249'\u003EEDITION\u003C/td\u003E\u003Ctd width='591'\u003E8/5/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='249'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E"
+                  },
+                  {
+                    "id": "02010200",
+                    "type": "cog",
+                    "name": "2023 Flood Occurence",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Flood/2023_FloodFrequency_cog.tif",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "items": [
+                          {
+                            "title": "\u003C= 10",
+                            "color": "#2b83ba"
+                          },
+                          {
+                            "title": "10-20",
+                            "color": "#abdda4"
+                          },
+                          {
+                            "title": "20-30",
+                            "color": "#ffffbf"
+                          },
+                          {
+                            "title": "30-40",
+                            "color": "#fdae61"
+                          },
+                          {
+                            "title": "\u003E 40",
+                            "color": "#d7191c"
+                          }
+                        ]
+                      }
+                    ],
+                    "description": "\u003Ctable width='829'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='238'\u003ETYPE\u003C/td\u003E\u003Ctd width='591'\u003EFlood Impact\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='238'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='591'\u003E2023 Flood Frequency Map\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='238'\u003ETITLE\u003C/td\u003E\u003Ctd width='591'\u003EFlood Frequency\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='238'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='591'\u003EMaps processed by Philippine Space Agency (PhilSA). Data is in Universal Transverse Mercator, Zone 51 N.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='238'\u003EPURPOSE\u003C/td\u003E\u003Ctd width='591'\u003EThe purpose of this map classification is to provide essential insights into the frequency of floods, crucial for effective planning, management, and monitoring of flood data nationwide. Derived from Sentinel-1 imagery at a spatial resolution of 15 meters, the dataset covers the period from January to December 2023.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='238'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='591'\u003E01/01/23 - 12/31/23\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='238'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='591'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='238'\u003EREGIONS\u003C/td\u003E\u003Ctd width='591'\u003ENationwide\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='238'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='591'\u003EProduction note for 2023 Multi-temporal Flood Frequency Map\u003Cbr /\u003E \u003Cbr /\u003E The Sentinel-1 imagery utilized in this study underwent machine learning-based classification. Initially, a collection of Sentinel-1 images was pre-processed and composited into a single-year dataset. Subsequently, this dataset was classified to derive the annual frequency of floods in the Philippines.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='238'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='591'\u003Eflood impact, flood frequency, flood, Sentinel-1, disaster\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='238'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='591'\u003EDisaster Risk Reduction and Management\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='238'\u003EEDITION\u003C/td\u003E\u003Ctd width='591'\u003E8/5/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='238'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "03000000",
+            "type": "group",
+            "name": "Environment",
+            "members": [
+              {
+                "id": "03010000",
+                "type": "group",
+                "name": "Nitrogen Dioxide (NO2)",
+                "members": [
+                  {
+                    "id": "03010100",
+                    "type": "cog",
+                    "name": "January 2019 NO2 Levels",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Climate/NO2/NO2_201901.tif",
+                    "description": "\u003Ctable width='612'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETYPE\u003C/td\u003E\u003Ctd width='368'\u003ENitrogen Dioxide (NO2)\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='368'\u003ENO2 Level Map\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETITLE\u003C/td\u003E\u003Ctd width='368'\u003EJanuary 2019 NO2 Levels\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='368'\u003EMaps processed by Philippine Space Agency (PhilSA). The dataset used was Sentinel-5P NO2. The data was clipped to the Philippine boundaries. The maps were processed monthly from 2019 to 2024.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='368'\u003EJanuary 2019\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='368'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EREGIONS\u003C/td\u003E\u003Ctd width='368'\u003ENationwide\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='368'\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='368'\u003EPhilSA, NO2, environment, Sentinel 5P\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='368'\u003EEnvironment\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EEDITION\u003C/td\u003E\u003Ctd width='368'\u003E8/5/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "url": "https://api.sdd.philsa.gov.ph/media/no2-legend.png"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "03010200",
+                    "type": "cog",
+                    "name": "January 2020 NO2 Levels",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Climate/NO2/NO2_202001.tif",
+                    "description": "\u003Ctable width='612'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETYPE\u003C/td\u003E\u003Ctd width='368'\u003ENitrogen Dioxide (NO2)\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='368'\u003ENO2 Level Map\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETITLE\u003C/td\u003E\u003Ctd width='368'\u003EJanuary 2020 NO2 Levels\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='368'\u003EMaps processed by Philippine Space Agency (PhilSA). The dataset used was Sentinel-5P NO2. The data was clipped to the Philippine boundaries. The maps were processed monthly from 2019 to 2024.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='368'\u003EJanuary 2020\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='368'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EREGIONS\u003C/td\u003E\u003Ctd width='368'\u003ENationwide\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='368'\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='368'\u003EPhilSA, NO2, environment, Sentinel 5P\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='368'\u003EEnvironment\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EEDITION\u003C/td\u003E\u003Ctd width='368'\u003E8/5/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "url": "https://api.sdd.philsa.gov.ph/media/no2-legend.png"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "03010300",
+                    "type": "cog",
+                    "name": "January 2021 NO2 Levels",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Climate/NO2/NO2_202101.tif",
+                    "description": "\u003Ctable width='612'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETYPE\u003C/td\u003E\u003Ctd width='368'\u003ENitrogen Dioxide (NO2)\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='368'\u003ENO2 Level Map\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETITLE\u003C/td\u003E\u003Ctd width='368'\u003EJanuary 2021 NO2 Levels\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='368'\u003EMaps processed by Philippine Space Agency (PhilSA). The dataset used was Sentinel-5P NO2. The data was clipped to the Philippine boundaries. The maps were processed monthly from 2019 to 2024.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='368'\u003EJanuary 2021\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='368'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EREGIONS\u003C/td\u003E\u003Ctd width='368'\u003ENationwide\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='368'\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='368'\u003EPhilSA, NO2, environment, Sentinel 5P\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='368'\u003EEnvironment\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EEDITION\u003C/td\u003E\u003Ctd width='368'\u003E8/5/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "url": "https://api.sdd.philsa.gov.ph/media/no2-legend.png"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "03010400",
+                    "type": "cog",
+                    "name": "January 2022 NO2 Levels",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Climate/NO2/NO2_202201.tif",
+                    "description": "\u003Ctable width='612'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETYPE\u003C/td\u003E\u003Ctd width='368'\u003ENitrogen Dioxide (NO2)\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='368'\u003ENO2 Level Map\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETITLE\u003C/td\u003E\u003Ctd width='368'\u003EJanuary 2022 NO2 Levels\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='368'\u003EMaps processed by Philippine Space Agency (PhilSA). The dataset used was Sentinel-5P NO2. The data was clipped to the Philippine boundaries. The maps were processed monthly from 2019 to 2024.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='368'\u003EJanuary 2022\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='368'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EREGIONS\u003C/td\u003E\u003Ctd width='368'\u003ENationwide\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='368'\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='368'\u003EPhilSA, NO2, environment, Sentinel 5P\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='368'\u003EEnvironment\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EEDITION\u003C/td\u003E\u003Ctd width='368'\u003E8/5/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "url": "https://api.sdd.philsa.gov.ph/media/no2-legend.png"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "03010500",
+                    "type": "cog",
+                    "name": "January 2023 NO2 Levels",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Climate/NO2/NO2_202301.tif",
+                    "description": "\u003Ctable width='612'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETYPE\u003C/td\u003E\u003Ctd width='368'\u003ENitrogen Dioxide (NO2)\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='368'\u003ENO2 Level Map\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETITLE\u003C/td\u003E\u003Ctd width='368'\u003EJanuary 2023 NO2 Levels\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='368'\u003EMaps processed by Philippine Space Agency (PhilSA). The dataset used was Sentinel-5P NO2. The data was clipped to the Philippine boundaries. The maps were processed monthly from 2019 to 2024.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='368'\u003EJanuary 2023\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='368'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EREGIONS\u003C/td\u003E\u003Ctd width='368'\u003ENationwide\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='368'\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='368'\u003EPhilSA, NO2, environment, Sentinel 5P\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='368'\u003EEnvironment\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EEDITION\u003C/td\u003E\u003Ctd width='368'\u003E8/5/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "url": "https://api.sdd.philsa.gov.ph/media/no2-legend.png"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "03010600",
+                    "type": "cog",
+                    "name": "January 2024 NO2 Levels",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Climate/NO2/NO2_202401.tif",
+                    "description": "\u003Ctable width='612'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETYPE\u003C/td\u003E\u003Ctd width='368'\u003ENitrogen Dioxide (NO2)\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='368'\u003ENO2 Level Map\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETITLE\u003C/td\u003E\u003Ctd width='368'\u003EJanuary 2024 NO2 Levels\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='368'\u003EMaps processed by Philippine Space Agency (PhilSA). The dataset used was Sentinel-5P NO2. The data was clipped to the Philippine boundaries. The maps were processed monthly from 2019 to 2024.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='368'\u003EJanuary 2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='368'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EREGIONS\u003C/td\u003E\u003Ctd width='368'\u003ENationwide\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='368'\u003E\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='368'\u003EPhilSA, NO2, environment, Sentinel 5P\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='368'\u003EEnvironment\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EEDITION\u003C/td\u003E\u003Ctd width='368'\u003E8/5/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "url": "https://api.sdd.philsa.gov.ph/media/no2-legend.png"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "04000000",
+            "type": "group",
+            "name": "Land Cover and Land Use",
+            "members": [
+              {
+                "id": "04010000",
+                "type": "cog",
+                "name": "2022 National Land Cover",
+                "url": "https://storage.googleapis.com/philsa-space-data-dashboard/LandCoverAndLandUse/2022_LandCover_4326_new.tif",
+                "description": "\u003Ctable width='916'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='325'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='591'\u003EData are processed using Random Forest Algorithms to generate land cover map. Data is in Universal Transverse Mercator, Zone 51 N.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='325'\u003EPURPOSE\u003C/td\u003E\u003Ctd width='591'\u003ESummary of the intentions with which the resource(s) was developed LULC shows the classification of surface cover on the ground. This plays a significant role in planning, management, and monitoring programs. This was derived from sentinel and landsat imagery in 2022.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='325'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='591'\u003E01/01/22 - 12/31/22\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='325'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='591'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='325'\u003EREGIONS\u003C/td\u003E\u003Ctd width='591'\u003ENationwide\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='325'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='591'\u003EThe Sentinel and Landsat imagery was classified using Random Forest Algorithms\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='325'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='591'\u003Elandcover, Random Forest, Landsat 8, Sentinel-1, Sentinel-2\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='325'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='591'\u003ELand Cover and Land Use\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='325'\u003EEDITION\u003C/td\u003E\u003Ctd width='591'\u003E8/5/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='325'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E",
+                "featureInfoTemplate": {
+                  "template": "\u003Cp\u003ELand Cover Type at {{terria.coords.latitude}} and {{terria.coords.longitude}}\u003C/p\u003E"
+                },
+                "legends": [
+                  {
+                    "title": "Legend",
+                    "items": [
+                      {
+                        "title": "No Data",
+                        "color": "rgb(0, 6, 1)"
+                      },
+                      {
+                        "title": "Annual Crop",
+                        "color": "rgb(255, 127, 0)"
+                      },
+                      {
+                        "title": "Aquaculture",
+                        "color": "rgb(121, 161, 145)"
+                      },
+                      {
+                        "title": "Barren Land",
+                        "color": "rgb(165, 165, 165)"
+                      },
+                      {
+                        "title": "Dense Urban/Continuous Urban Fabric",
+                        "color": "rgb(215, 25, 28)"
+                      },
+                      {
+                        "title": "Forest",
+                        "color": "rgb(34, 139, 34)"
+                      },
+                      {
+                        "title": "Grassland",
+                        "color": "rgb(85, 212, 0)"
+                      },
+                      {
+                        "title": "Mangrove",
+                        "color": "rgb(119, 139, 34)"
+                      },
+                      {
+                        "title": "Paddy Rice",
+                        "color": "rgb(5, 189, 155)"
+                      },
+                      {
+                        "title": "Permanent Crop",
+                        "color": "rgb(240, 196, 32)"
+                      },
+                      {
+                        "title": "Shrubland",
+                        "color": "rgb(182, 255, 5)"
+                      },
+                      {
+                        "title": "Sparse Urban/Discontinuous Urban Fabric",
+                        "color": "rgb(215, 24, 193)"
+                      },
+                      {
+                        "title": "Water",
+                        "color": "rgb(31, 120, 180)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "04020000",
+                "type": "cog",
+                "name": "Building Density for NCR",
+                "url": "https://storage.googleapis.com/philsa-space-data-dashboard/LandCoverAndLandUse/grid_with_building_counts_cog.tif",
+                "legends": [
+                  {
+                    "title": "Legend",
+                    "items": [
+                      {
+                        "title": "\u003C= 100.0000",
+                        "color": "#fff5f0"
+                      },
+                      {
+                        "title": "100.0000 - 200.0000",
+                        "color": "#fee3d6"
+                      },
+                      {
+                        "title": "200.0000 - 300.0000",
+                        "color": "#fdd6af"
+                      },
+                      {
+                        "title": "300.0000 - 400.0000",
+                        "color": "#fca486"
+                      },
+                      {
+                        "title": "400.0000 - 500.0000",
+                        "color": "#fc8161"
+                      },
+                      {
+                        "title": "500.0000 - 600.0000",
+                        "color": "#f85d42"
+                      },
+                      {
+                        "title": "600.0000 - 700.0000",
+                        "color": "#ea372a"
+                      },
+                      {
+                        "title": "700.0000 - 800.0000",
+                        "color": "#cc191d"
+                      },
+                      {
+                        "title": "800.0000 - 900.0000",
+                        "color": "#a91016"
+                      },
+                      {
+                        "title": "\u003E 900.0000",
+                        "color": "#67000d"
+                      }
+                    ]
+                  }
+                ],
+                "description": "\u003Ctable width='807'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='216'\u003E&nbsp;\u003C/td\u003E\u003Ctd width='591'\u003E&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003ETYPE\u003C/td\u003E\u003Ctd width='591'\u003EBuilding Density\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='591'\u003EBuilding Density Map\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003ETITLE\u003C/td\u003E\u003Ctd width='591'\u003EBuilding Density\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='591'\u003EMaps processed by Philippine Space Agency (PhilSA). Data are processed by a criteria of total buildings per 500 m to generate a building density map. Data is in Universal Transverse Mercator, Zone 51 N.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003EPURPOSE\u003C/td\u003E\u003Ctd width='591'\u003ESummary of the intentions with which the resource(s) was developed LULC shows the building density for the specified region. This shall play a significant role in planning, management, and monitoring programs at the National Capital Region. The output has a spatial resolution of 500 m.\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='591'\u003E2023\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='591'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003EREGIONS\u003C/td\u003E\u003Ctd width='591'\u003ENational Capital Region (Metro Manila)\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='591'\u003EThe generated data utilizes the sum of the building count (total buildings) per 500 m\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='591'\u003EPhilSA, landcover, buildings, National Capital Region\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='591'\u003ELand Cover and Land Use\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003EEDITION\u003C/td\u003E\u003Ctd width='591'\u003E8/5/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='216'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E"
+              }
+            ]
+          },
+          {
+            "id": "05000000",
+            "type": "group",
+            "name": "Monitoring",
+            "members": [
+              {
+                "id": "05010000",
+                "type": "group",
+                "name": "Ship Detection",
+                "members": [
+                  {
+                    "id": "05010100",
+                    "name": "Ship Monitoring",
+                    "type": "csv",
+                    "url": "https://api.sdd.philsa.gov.ph/ships.csv",
+                    "featureInfoTemplate": {
+                      "template": "\u003Cp\u003EPort of {{name}}\u003C/p\u003E\u003Cchart src='{{url}}_daily.csv' title='{{name}} Ships' column-units=',number of ships,' y-column='1'\u003E\u003C/chart\u003E"
+                    },
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "items": [
+                          {
+                            "title": "Port",
+                            "color": "#66c2a5"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "06000000",
+            "type": "group",
+            "name": "Vegetation",
+            "members": [
+              {
+                "id": "06010000",
+                "type": "group",
+                "name": "Mangroves",
+                "members": [
+                  {
+                    "id": "06010100",
+                    "type": "cog",
+                    "name": "2023 Mangrove Extents",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Vegetation/Mangrove_4326_new.tif",
+                    "description": "\u003Ctable width='797'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETYPE\u003C/td\u003E\u003Ctd width='573'\u003EMangroves\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='573'\u003EMangrove Extent Map\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETITLE\u003C/td\u003E\u003Ctd width='573'\u003E2023 Mangrove Extent\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='573'\u003EMaps processed by Philippine Space Agency (PhilSA). Data are processed using Random Forest to generate the mangrove extent map. Data is in Universal Transverse Mercator, Zone 51 N.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EPURPOSE\u003C/td\u003E\u003Ctd width='573'\u003ESummary of the intentions with which the resource(s) was developed LULC shows the mangrove extent cover on the ground. This plays a significant role in planning, management, and monitoring programs in the Philippines. This is derived from a 10-m satellite data (2023).\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='573'\u003EJan 2023 - Dec 2023\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='573'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EREGIONS\u003C/td\u003E\u003Ctd width='573'\u003ENationwide\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='573'\u003EClassification\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='573'\u003EMangroves, SRTM, PALSAR-2, Sentinel-1, Sentinel-2, Philippines\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='573'\u003EVegetation\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003EEDITION\u003C/td\u003E\u003Ctd width='573'\u003E8/5/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='224'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "items": [
+                          {
+                            "title": "Mangrove Area",
+                            "color": "#d73027"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "06020000",
+                "type": "group",
+                "name": "Coconuts",
+                "members": [
+                  {
+                    "id": "06020100",
+                    "type": "cog",
+                    "name": "2022 Coconut Extents",
+                    "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Vegetation/Coconut_4326_new.tif",
+                    "description": "\u003Ctable width='612'\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETYPE\u003C/td\u003E\u003Ctd width='368'\u003ECoconut\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA PRODUCTS\u003C/td\u003E\u003Ctd width='368'\u003ECoconut Extent Map\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETITLE\u003C/td\u003E\u003Ctd width='368'\u003E2022 Coconut Extents\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EABSTRACT\u003C/td\u003E\u003Ctd width='368'\u003EMaps processed by Philippine Space Agency (PhilSA). Data are processed using Random Forest to generate the mangrove extent map. Data is in Universal Transverse Mercator, Zone 51 N.&nbsp;\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EPURPOSE\u003C/td\u003E\u003Ctd width='368'\u003ESummary of the intentions with which the resource(s) was developed LULC shows the coconut extent cover on the ground. This plays a significant role in planning, management, and monitoring programs in the Philippines. This is derived from a 20-m satellite data (2020).\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ETEMPORAL START AND END DATE\u003C/td\u003E\u003Ctd width='368'\u003E2020\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ESPATIAL REPRESENTATION TYPE\u003C/td\u003E\u003Ctd width='368'\u003ERaster, GeoTIFF\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EREGIONS\u003C/td\u003E\u003Ctd width='368'\u003ENationwide\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EDATA QUALITY STATEMENT\u003C/td\u003E\u003Ctd width='368'\u003EClassification\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EKEYWORDS\u003C/td\u003E\u003Ctd width='368'\u003ECoconut, closed-canopy, Philippines, Sentinel-1, Sentinel-2\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ECATEGORY\u003C/td\u003E\u003Ctd width='368'\u003EVegetation\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003EEDITION\u003C/td\u003E\u003Ctd width='368'\u003E8/5/2024\u003C/td\u003E\u003C/tr\u003E\u003Ctr\u003E\u003Ctd width='244'\u003ELICENSE\u003C/td\u003E\u003Ctd\u003EThe use of the datasets provided herewith are covered by End Users License Agreement (EULA)\u003C/td\u003E\u003C/tr\u003E\u003C/tbody\u003E\u003C/table\u003E",
+                    "legends": [
+                      {
+                        "title": "Legend",
+                        "items": [
+                          {
+                            "title": "Coconut Area",
+                            "color": "#d73027"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "baseMaps": {
+      "defaultBaseMapId": "basemap-geoportal",
+      "previewBaseMapId": "basemap-geoportal",
+      "enabledBaseMaps": [
+        "basemap-natural-earth-II",
+        "basemap-positron",
+        "basemap-darkmatter",
+        "basemap-geoportal"
+      ],
+      "items": [
+        {
+          "item": {
+            "id": "basemap-geoportal",
+            "type": "url-template-imagery",
+            "name": "Geoportal Basemap",
+            "url": "https://basemapserver.geoportal.gov.ph/tiles/v2/PGP/{z}/{x}/{y}.png",
+            "opacity": 1
+          },
+          "image": "https://api.sdd.philsa.gov.ph/media/basemap_geoportal.png"
+        },
+        {
+          "item": {
+            "id": "basemap-positron",
+            "url": "https://basemaps.cartocdn.com/light_nolabels/"
+          },
+          "image": "https://api.sdd.philsa.gov.ph/media/basemap_positron.png"
+        },
+        {
+          "item": {
+            "id": "basemap-natural-earth-II"
+          },
+          "image": "https://api.sdd.philsa.gov.ph/media/basemap_natural-earth.png"
+        },
+        {
+          "item": {
+            "id": "basemap-darkmatter",
+            "url": "https://basemaps.cartocdn.com/dark_nolabels/"
+          },
+          "image": "https://api.sdd.philsa.gov.ph/media/basemap_dark-matter.png.png"
+        },
+        {
+          "item": {
+            "id": "basemap-google-satellite",
+            "type": "url-template-imagery",
+            "name": "Google Satellite",
+            "url": "http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}",
+            "opacity": 1
+          },
+          "image": "https://api.sdd.philsa.gov.ph/media/basemap_google_satellite.png"
+        }
+      ]
+    },
+    "corsDomains": [
+      "localhost",
+      "corsproxy.com"
+    ]
+  }
