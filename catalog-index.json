@@ -609,58 +609,6 @@
         ]
       }
     ],
-    "baseMaps": {
-      "defaultBaseMapId": "basemap-geoportal",
-      "previewBaseMapId": "basemap-geoportal",
-      "enabledBaseMaps": [
-        "basemap-natural-earth-II",
-        "basemap-positron",
-        "basemap-darkmatter",
-        "basemap-geoportal"
-      ],
-      "items": [
-        {
-          "item": {
-            "id": "basemap-geoportal",
-            "type": "url-template-imagery",
-            "name": "Geoportal Basemap",
-            "url": "https://basemapserver.geoportal.gov.ph/tiles/v2/PGP/{z}/{x}/{y}.png",
-            "opacity": 1
-          },
-          "image": "https://api.sdd.philsa.gov.ph/media/basemap_geoportal.png"
-        },
-        {
-          "item": {
-            "id": "basemap-positron",
-            "url": "https://basemaps.cartocdn.com/light_nolabels/"
-          },
-          "image": "https://api.sdd.philsa.gov.ph/media/basemap_positron.png"
-        },
-        {
-          "item": {
-            "id": "basemap-natural-earth-II"
-          },
-          "image": "https://api.sdd.philsa.gov.ph/media/basemap_natural-earth.png"
-        },
-        {
-          "item": {
-            "id": "basemap-darkmatter",
-            "url": "https://basemaps.cartocdn.com/dark_nolabels/"
-          },
-          "image": "https://api.sdd.philsa.gov.ph/media/basemap_dark-matter.png.png"
-        },
-        {
-          "item": {
-            "id": "basemap-google-satellite",
-            "type": "url-template-imagery",
-            "name": "Google Satellite",
-            "url": "http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}",
-            "opacity": 1
-          },
-          "image": "https://api.sdd.philsa.gov.ph/media/basemap_google_satellite.png"
-        }
-      ]
-    },
     "corsDomains": [
       "localhost",
       "corsproxy.com"
