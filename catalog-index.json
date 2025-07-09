@@ -1,11 +1,19 @@
 {
     "catalog": [
         {
-            "isGeoServer": true,
+            "isGeoServer": "true",
             "type": "wmts",
-            "id": "a unique id for wmts example",
-            "name": "wmts example",
+            "id": "01",
+            "name": "PhilSA Geoserver",
             "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+            "layer": "space-data-dashboard:2022_FloodFrequency_cog",
+            "opacity": 1
+        },
+        {
+            "type": "wmts",
+            "id": "02",
+            "name": "wmts example",
+            "url": "https://services.arcgisonline.com/arcgis/rest/services/Reference/World_Boundaries_and_Places/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
             "layer": "Reference_World_Boundaries_and_Places",
             "opacity": 1
         }
