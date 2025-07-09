@@ -29,19 +29,20 @@
             "opacity": 1
         },
         {
+            "id": "04",
             "type": "wms",
             "name": "PhilSA WMS",
             "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
             "layers": "PH_Adm4_BgySubMuns_shp"
         },
         {
+            "id": "05",
             "type": "geojson",
             "url": "https://tiles.terria.io/terriajs-examples/geojson/bike_racks.geojson",
             "name": "geojson example",
-            "id": "some unique ID"
         },
         {
-            "id": "04",
+            "id": "06",
             "type": "cog",
             "name": "December 2023 Palawan Drought",
             "url": "https://storage.googleapis.com/philsa-space-data-dashboard/Environment/CDI-PH-202312_cog.tif",
