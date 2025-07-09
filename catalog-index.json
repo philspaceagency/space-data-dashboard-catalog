@@ -39,7 +39,7 @@
             "id": "05",
             "type": "geojson",
             "url": "https://tiles.terria.io/terriajs-examples/geojson/bike_racks.geojson",
-            "name": "geojson example",
+            "name": "geojson example"
         },
         {
             "id": "06",
