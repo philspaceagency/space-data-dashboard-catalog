@@ -4,14 +4,23 @@
             "isGeoServer": true,
             "type": "wmts",
             "id": "01",
-            "name": "PhilSA Geoserver",
+            "name": "PhilSA Geoserver - LST",
             "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
             "layer": "20240306_NCR_LST_rendered-image_cog",
             "opacity": 1
         },
         {
+            "isGeoServer": true,
             "type": "wmts",
             "id": "02",
+            "name": "PhilSA Geoserver - Shape",
+            "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+            "layer": "PH_Adm4_BgySubMuns_shp",
+            "opacity": 1
+        },
+        {
+            "type": "wmts",
+            "id": "03",
             "name": "wmts example",
             "url": "https://services.arcgisonline.com/arcgis/rest/services/Reference/World_Boundaries_and_Places/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
             "layer": "Reference_World_Boundaries_and_Places",
