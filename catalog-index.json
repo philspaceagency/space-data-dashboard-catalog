@@ -6,7 +6,7 @@
             "id": "01",
             "name": "PhilSA Geoserver",
             "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-            "layer": "space-data-dashboard:20240306_NCR_LST_rendered-image_cog",
+            "layer": "20240306_NCR_LST_rendered-image_cog",
             "opacity": 1
         },
         {
