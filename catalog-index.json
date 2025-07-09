@@ -21,6 +21,16 @@
             "style": "polygon"
         },
         {
+            "isGeoServer": true,
+            "type": "wmts",
+            "id": "07",
+            "name": "PhilSA Geoserver - Shape",
+            "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+            "layer": "all_boat_detections",
+            "opacity": 1,
+            "style": "polygon"
+        },
+        {
             "type": "wmts",
             "id": "03",
             "name": "wmts example",
