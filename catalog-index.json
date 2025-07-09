@@ -1,7 +1,7 @@
 {
     "catalog": [
         {
-            "isGeoServer": "true",
+            "isGeoServer": true,
             "type": "wmts",
             "id": "01",
             "name": "PhilSA Geoserver",
