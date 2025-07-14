@@ -3,7 +3,7 @@
         {
             "isGeoServer": true,
             "type": "wmts",
-            "id": "01",
+
             "name": "PhilSA Geoserver - LST",
             "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
             "layer": "20240306_NCR_LST_rendered-image_cog",
@@ -13,17 +13,6 @@
         {
             "isGeoServer": true,
             "type": "wmts",
-            "id": "02",
-            "name": "PhilSA Geoserver - Shape",
-            "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-            "layer": "PH_Adm4_BgySubMuns_shp",
-            "opacity": 1,
-            "style": "polygon"
-        },
-        {
-            "isGeoServer": true,
-            "type": "wmts",
-            "id": "07",
             "name": "PhilSA Geoserver - Boats",
             "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
             "layer": "all_boat_detections",
@@ -31,15 +20,7 @@
             "style": "polygon"
         },
         {
-            "type": "wmts",
-            "id": "03",
-            "name": "wmts example",
-            "url": "https://services.arcgisonline.com/arcgis/rest/services/Reference/World_Boundaries_and_Places/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
-            "layer": "Reference_World_Boundaries_and_Places",
-            "opacity": 1
-        },
-        {
-            "id": "04",
+            "isGeoServer": true,
             "type": "wms",
             "name": "PhilSA WMS",
             "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
