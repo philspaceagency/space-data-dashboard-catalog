@@ -9,7 +9,7 @@
             "opacity": 1
         },
         {
-            "isGeoServer": true,
+            "isGeoServer": "true",
             "type": "wmts",
             "name": "PhilSA Geoserver - Boats",
             "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
