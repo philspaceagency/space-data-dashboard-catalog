@@ -36,6 +36,7 @@
     ],
     "corsDomains": [
       "localhost",
-      "corsproxy.com"
+      "corsproxy.com",
+      "geoserver.philsa.gov.ph"
     ]
 }
