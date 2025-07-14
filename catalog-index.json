@@ -27,10 +27,10 @@
             "layers": "PH_Adm4_BgySubMuns_shp"
         },
         {
-            "id": "05",
-            "type": "geojson",
-            "url": "https://tiles.terria.io/terriajs-examples/geojson/bike_racks.geojson",
-            "name": "geojson example"
+            "type": "wms",
+            "name": "DEA WMS",
+            "url": "https://ows.services.dea.ga.gov.au/wms?request=GetCapabilities&service=WMS&version=1.3.0",
+            "layers": "s2_ls_combined"
         }
 
     ],
