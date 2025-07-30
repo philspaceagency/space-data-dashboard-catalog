@@ -7,11 +7,9 @@
             "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts",
             "layer": "space-data-dashboard:20240306_NCR_LST_rendered-image_cog",
             "style": "space-data-dashboard:lst",
-            "tileMatrixSetID": "GoogleMapsCompatible",
-            "tilingScheme": "slippy-map",
+            "tileMatrixSetID": "EPSG:4326",
             "format": "image/png",
-            "maximumZoom": 21,
-            "minimumZoom": 0,
+            "tilingScheme": "geographic",
             "opacity": 1
         },
         {
