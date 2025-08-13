@@ -10,6 +10,10 @@
             "legends": [
                 {
                 "title": "Land Surface Temperature (Celsius) ",
+                "type": "continuous",
+                "min": 20,
+                "max": 36,
+                "units": "°C",
                 "items": [
                     {
                     "title": "20",
