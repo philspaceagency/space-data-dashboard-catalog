@@ -1,7 +1,7 @@
 {
     "catalog": [
         {
-            "name": "Climate",
+            "name": "Climate Datasets",
             "members": [
                 {
                     "isGeoServer": "true",
@@ -44,7 +44,6 @@
                 }
             ]
         },
-        
         {
             "isGeoServer": "true",
             "type": "wmts",
