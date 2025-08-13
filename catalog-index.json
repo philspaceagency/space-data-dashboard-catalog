@@ -1,44 +1,50 @@
 {
     "catalog": [
         {
-            "isGeoServer": "true",
-            "type": "wmts",
-            "name": "PhilSA Geoserver - LST",
-            "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-            "layer": "space-data-dashboard:NCR_LST_Clipped1",
-            "opacity": 1,
-            "legends": [
+            "name": "Climate",
+            "members": [
                 {
-                "title": "Land Surface Temperature (Celsius) ",
-                "type": "continuous",
-                "min": 20,
-                "max": 36,
-                "units": "°C",
-                "items": [
-                    {
-                    "title": "20",
-                    "color": "#30123b"
-                    },
-                    {
-                    "title": "24",
-                    "color": "#28bceb"
-                    },
-                    {
-                    "title": "28",
-                    "color": "#a4fc3c"
-                    },
-                    {
-                    "title": "32",
-                    "color": "#fb7e21"
-                    },
-                    {
-                    "title": "36",
-                    "color": "#7a0403"
-                    }
-                ]
+                    "isGeoServer": "true",
+                    "type": "wmts",
+                    "name": "Land Surface Temperature (LST)",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                    "layer": "space-data-dashboard:NCR_LST_Clipped1",
+                    "opacity": 1,
+                    "legends": [
+                        {
+                        "title": "Land Surface Temperature (Celsius) ",
+                        "type": "continuous",
+                        "min": 20,
+                        "max": 36,
+                        "units": "°C",
+                        "items": [
+                            {
+                            "title": "20",
+                            "color": "#30123b"
+                            },
+                            {
+                            "title": "24",
+                            "color": "#28bceb"
+                            },
+                            {
+                            "title": "28",
+                            "color": "#a4fc3c"
+                            },
+                            {
+                            "title": "32",
+                            "color": "#fb7e21"
+                            },
+                            {
+                            "title": "36",
+                            "color": "#7a0403"
+                            }
+                        ]
+                        }
+                    ]
                 }
             ]
         },
+        
         {
             "isGeoServer": "true",
             "type": "wmts",
