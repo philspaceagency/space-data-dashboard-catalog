@@ -2,6 +2,7 @@
     "catalog": [
         {
             "name": "Climate Datasets",
+            "type": "group",
             "members": [
                 {
                     "isGeoServer": "true",
