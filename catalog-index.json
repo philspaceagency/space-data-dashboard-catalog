@@ -128,33 +128,35 @@
                     "includeMembersRegex": "NO2_.*_COG",
                     "legends": [
                         {
-                            "title": "Nitrogen Dioxide (NO2) Concentration",
-                            "type": "continuous",
-                            "min": 0.00,
-                            "max": 150.00,
-                            "units": "µmol/m²",
-                            "items": [
-                                {
-                                    "title": "0.00",
-                                    "color": "#30123b"
-                                },
-                                {
-                                    "title": "37.5",
-                                    "color": "#28bceb"
-                                },
-                                {
-                                    "title": "75.00",
-                                    "color": "#a4fc3c"
-                                },
-                                {
-                                    "title": "112.5",
-                                    "color": "#fb7e21"
-                                },
-                                {
-                                    "title": "150.00",
-                                    "color": "#7a0403"
-                                }
-                            ]
+                        "title": "Land Surface Temperature (Celsius) ",
+                        "type": "continuous",
+                        "min": 20,
+                        "max": 36,
+                        "units": "°C",
+                        "items": [
+                            {
+                            "title": "0.00",
+                            "color": "#30123b"
+                            },
+                            {
+                            "title": "37.5",
+                            "color": "#28bceb"
+                            },
+                            {
+                            "title": "75",
+                            "color": "#a4fc3c"
+                            },
+                            {
+                            "title": "112.5",
+                            "color": "#fb7e21"
+                            },
+                            {
+                            "title": "150",
+                            "color": "#7a0403"
+                            }
+                        ]
+                        }
+                    ]
                 }
             ]
         },
