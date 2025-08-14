@@ -118,13 +118,7 @@
             "name": "Environment",
             "type": "group",
             "members": [
-                {
-                    "type": "wmts-group",
-                    "name": "NO2",
-                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                    "layer": "space-data-dashboard:NO2",
-                    "opacity": 1
-                }
+
             ]
         },
         {
