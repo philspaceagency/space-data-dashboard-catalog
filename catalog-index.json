@@ -115,6 +115,19 @@
             ]
         },
         {
+            "name": "Environment",
+            "type": "group",
+            "members": [
+                {
+                    "type": "wmts-group",
+                    "name": "NO2",
+                    "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
+                    "layer": "space-data-dashboard:NO2",
+                    "opacity": 1
+                }
+            ]
+        },
+        {
             "isGeoServer": "true",
             "type": "wmts",
             "name": "PhilSA Geoserver - Boats",
