@@ -125,7 +125,36 @@
                     "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
                     "layer": "space-data-dashboard:NO2",
                     "opacity": 1,
-                    "includeMembersRegex": "NO2_.*_COG"
+                    "includeMembersRegex": "NO2_.*_COG",
+                    "legends": [
+                        {
+                            "title": "Nitrogen Dioxide (NO2) Concentration",
+                            "type": "continuous",
+                            "min": 0,
+                            "max": 0.1,
+                            "units": "µmol/m²",
+                            "items": [
+                                {
+                                    "title": "0.00",
+                                    "color": "#30123b"
+                                },
+                                {
+                                    "title": "37.5",
+                                    "color": "#28bceb"
+                                },
+                                {
+                                    "title": "75.00",
+                                    "color": "#a4fc3c"
+                                },
+                                {
+                                    "title": "112.5",
+                                    "color": "#fb7e21"
+                                },
+                                {
+                                    "title": "150.00",
+                                    "color": "#7a0403"
+                                }
+                            ]
                 }
             ]
         },
