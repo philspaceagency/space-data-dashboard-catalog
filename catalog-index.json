@@ -130,8 +130,8 @@
                         {
                             "title": "Nitrogen Dioxide (NO2) Concentration",
                             "type": "continuous",
-                            "min": 0,
-                            "max": 0.1,
+                            "min": 0.00,
+                            "max": 150.00,
                             "units": "µmol/m²",
                             "items": [
                                 {
