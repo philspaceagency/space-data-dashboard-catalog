@@ -20,7 +20,7 @@
                                     "layer": "space-data-dashboard:NO2_201901_COG",
                                     "legends": [
                                         {
-                                            "title": "Nitrogen Dioxide",
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
                                             "type": "continuous",
                                             "min": 20,
                                             "max": 36,
@@ -58,7 +58,7 @@
                                     "layer": "space-data-dashboard:NO2_201902_COG",
                                     "legends": [
                                         {
-                                            "title": "Nitrogen Dioxide",
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
                                             "type": "continuous",
                                             "min": 20,
                                             "max": 36,
@@ -96,7 +96,7 @@
                                     "layer": "space-data-dashboard:NO2_201903_COG",
                                     "legends": [
                                         {
-                                            "title": "Nitrogen Dioxide",
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
                                             "type": "continuous",
                                             "min": 20,
                                             "max": 36,
@@ -134,7 +134,7 @@
                                     "layer": "space-data-dashboard:NO2_201904_COG",
                                     "legends": [
                                         {
-                                            "title": "Nitrogen Dioxide",
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
                                             "type": "continuous",
                                             "min": 20,
                                             "max": 36,
@@ -172,7 +172,7 @@
                                     "layer": "space-data-dashboard:NO2_201905_COG",
                                     "legends": [
                                         {
-                                            "title": "Nitrogen Dioxide",
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
                                             "type": "continuous",
                                             "min": 20,
                                             "max": 36,
@@ -210,7 +210,7 @@
                                     "layer": "space-data-dashboard:NO2_201906_COG",
                                     "legends": [
                                         {
-                                            "title": "Nitrogen Dioxide",
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
                                             "type": "continuous",
                                             "min": 20,
                                             "max": 36,
@@ -248,7 +248,7 @@
                                     "layer": "space-data-dashboard:NO2_201907_COG",
                                     "legends": [
                                         {
-                                            "title": "Nitrogen Dioxide",
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
                                             "type": "continuous",
                                             "min": 20,
                                             "max": 36,
@@ -286,7 +286,7 @@
                                     "layer": "space-data-dashboard:NO2_201908_COG",
                                     "legends": [
                                         {
-                                            "title": "Nitrogen Dioxide",
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
                                             "type": "continuous",
                                             "min": 20,
                                             "max": 36,
@@ -324,7 +324,7 @@
                                     "layer": "space-data-dashboard:NO2_201909_COG",
                                     "legends": [
                                         {
-                                            "title": "Nitrogen Dioxide",
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
                                             "type": "continuous",
                                             "min": 20,
                                             "max": 36,
@@ -362,7 +362,7 @@
                                     "layer": "space-data-dashboard:NO2_201910_COG",
                                     "legends": [
                                         {
-                                            "title": "Nitrogen Dioxide",
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
                                             "type": "continuous",
                                             "min": 20,
                                             "max": 36,
@@ -400,7 +400,7 @@
                                     "layer": "space-data-dashboard:NO2_201911_COG",
                                     "legends": [
                                         {
-                                            "title": "Nitrogen Dioxide",
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
                                             "type": "continuous",
                                             "min": 20,
                                             "max": 36,
@@ -438,7 +438,7 @@
                                     "layer": "space-data-dashboard:NO2_201912_COG",
                                     "legends": [
                                         {
-                                            "title": "Nitrogen Dioxide",
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
                                             "type": "continuous",
                                             "min": 20,
                                             "max": 36,
