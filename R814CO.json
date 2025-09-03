@@ -13,7 +13,7 @@
                     "opacity": 1
                 },
                 {
-                    "isGeoServer": true,
+                    "isGeoServer": "true",
                     "type": "wmts",
                     "name": "PINAS Aklan Participatory Mapping Point",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
