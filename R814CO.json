@@ -1,0 +1,27 @@
+{
+    "catalog": [
+        {
+            "isGeoServer": "true",
+            "type": "wmts",
+            "name": "PINAS Aklan Participatory Mapping Area",
+            "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+            "layer": "pinas:PINAS_Aklan_ParticipatoryMapping-area",
+            "opacity": 1
+        },
+        {
+            "isGeoServer": true,
+            "type": "wmts",
+            "name": "PINAS Aklan Participatory Mapping Point",
+            "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+            "layers": "pinas:PINAS_Aklan_ParticipatoryMapping-point"
+        }
+    ],
+    "corsDomains": [
+      "localhost",
+      "corsproxy.com",
+      "geoserver.philsa.gov.ph",
+      "raw.githubusercontent.com",
+      "storage.googleapis.com",
+      "ows.services.dea.ga.gov.au"
+    ]
+}
