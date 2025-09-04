@@ -1,11 +1,11 @@
 {
     "catalog": [
         {
-            "type": "wmts-group",
-            "id": "a unique id for wmts-group example",
-            "name": "wmts-group example",
-            "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
-            "opacity": 1
+            "type": "wmts",
+            "name": "Sentinel 1 Flood Map Sample",
+            "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+            "opacity": 1,
+            "layer": "space-data-dashboard:20250723_Flood_S1A"
         },
         {
           "id": "3chNzj13TB",
