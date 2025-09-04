@@ -1,10 +1,11 @@
 {
     "catalog": [
         {
-        "type": "wms",
-        "name": "Mangrove Cover",
-        "url": "https://ows.services.dea.ga.gov.au",
-        "layers": "mangrove_cover_v2_0_2"
+            "type": "wmts-group",
+            "id": "a unique id for wmts-group example",
+            "name": "wmts-group example",
+            "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
+            "opacity": 1
         },
         {
             "name": "Climate",
