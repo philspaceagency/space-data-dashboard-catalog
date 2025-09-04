@@ -11,6 +11,14 @@
                     "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
                     "layer": "pinas:PINAS_Ilocos_ParticipatoryMapping-point",
                     "opacity": 1
+                },
+                {
+                    "isGeoServer": "true",
+                    "type": "wmts",
+                    "name": "PINAS Ilocos Participatory Mapping Area",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                    "layer": "pinas:PINAS_Ilocos_ParticipatoryMapping-area",
+                    "opacity": 1
                 }
             ]
         }
