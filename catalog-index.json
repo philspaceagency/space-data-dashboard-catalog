@@ -1,6 +1,12 @@
 {
     "catalog": [
         {
+        "type": "wms",
+        "name": "Mangrove Cover",
+        "url": "https://ows.services.dea.ga.gov.au",
+        "layers": "mangrove_cover_v2_0_2"
+        },
+        {
             "name": "Climate",
             "type": "group",
             "members": [
