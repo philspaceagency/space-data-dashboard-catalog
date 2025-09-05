@@ -1,0 +1,66 @@
+{
+    "catalog": [
+        {
+            "name":"PINAS Participatory Mapping",
+            "type":"group",
+            "members":[
+                {
+                    "isGeoServer": "true",
+                    "type": "wmts",
+                    "name": "PINAS Aklan Participatory Mapping Area",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                    "layer": "pinas:pinas-aklan-polygon",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": "true",
+                    "type": "wmts",
+                    "name": "PINAS Aklan Participatory Mapping Point",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                    "layer": "pinas:pinas-aklan-point",
+                    "opacity": 1
+                },
+                                {
+                    "isGeoServer": "true",
+                    "type": "wmts",
+                    "name": "PINAS Ilocos Participatory Mapping Point",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                    "layer": "pinas:pinas-ilocos-point",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": "true",
+                    "type": "wmts",
+                    "name": "PINAS Ilocos Participatory Mapping Area",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                    "layer": "pinas:pinas-ilocos-polygon",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": "true",
+                    "type": "wmts",
+                    "name": "PINAS Mindoro Participatory Mapping Point",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                    "layer": "pinas:pinas-mindoro-point",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": "true",
+                    "type": "wmts",
+                    "name": "PINAS Mindoro Participatory Mapping Area",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                    "layer": "pinas:pinas-mindoro-polygon",
+                    "opacity": 1
+                }
+            ]
+        }
+    ],
+    "corsDomains": [
+      "localhost",
+      "corsproxy.com",
+      "geoserver.philsa.gov.ph",
+      "raw.githubusercontent.com",
+      "storage.googleapis.com",
+      "ows.services.dea.ga.gov.au"
+    ]
+}
