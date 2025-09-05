@@ -1,8 +1,6 @@
 {
     "catalog": [
         {
-<<<<<<< HEAD
-=======
             "type": "wmts",
             "name": "Sentinel 1 Flood Map Sample",
             "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
@@ -10,13 +8,6 @@
             "layer": "space-data-dashboard:20250723_Flood_S1A"
         },
         {
-          "id": "3chNzj13TB",
-          "type": "wms-group",
-          "name": "WMS layers for the Australian Renewable Energy Mapping Infrastructure project.",
-          "url": "https://gis.aremi.data61.io/bom/wms"
-        },
-        {
->>>>>>> d1523712c2e30270ea7dfaa9b2a56bc9d7f66591
             "name": "Climate",
             "type": "group",
             "members": [
