@@ -1,0 +1,40 @@
+{
+    "catalog": [
+        {
+            "name": "Climate",
+            "type": "group",
+            "members": [
+                {
+                    "isGeoServer": "true",
+                    "type": "wmts",
+                    "name": "Land Surface Temperature (LST)",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                    "layer": "space-data-dashboard:NCR_LST_COG",
+                    "opacity": 1
+                }
+            ]
+        },
+        {
+            "name": "Land Cover and Land Use",
+            "type": "group",
+            "members": [
+                {
+                    "isGeoServer": "true",
+                    "type": "wmts",
+                    "name": "2022 National Land Cover",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                    "layer": "space-data-dashboard:2022_LandCover",
+                    "opacity": 1
+                }
+            ]
+        }
+    ],
+    "corsDomains": [
+      "localhost",
+      "corsproxy.com",
+      "geoserver.philsa.gov.ph",
+      "raw.githubusercontent.com",
+      "storage.googleapis.com",
+      "ows.services.dea.ga.gov.au"
+    ]
+}
