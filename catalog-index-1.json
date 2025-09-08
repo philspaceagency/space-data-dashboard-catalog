@@ -11,7 +11,7 @@
                     "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
                     "layer": "space-data-dashboard:NCR_LST_COG",
                     "opacity": 1,
-                    "style": "lst"
+                    "style": "space-data-dashboard:lst"
                 }
             ]
         },
