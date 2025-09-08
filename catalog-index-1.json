@@ -11,6 +11,9 @@
                     "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
                     "layer": "space-data-dashboard:NCR_LST_COG",
                     "opacity": 1,
+                    "featureInfoTemplate": {
+                        "name": "{{GRAY_INDEX}} W/m2"
+                    },
                     "legends": [
                         {
                         "title": "Land Surface Temperature (°C)",
