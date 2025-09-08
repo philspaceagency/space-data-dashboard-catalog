@@ -12,7 +12,7 @@
                     "layer": "space-data-dashboard:NCR_LST_COG",
                     "opacity": 1,
                     "featureInfoTemplate": {
-                        "template": "HEY! This is a feature info template"
+                        "template": "Location: <b>Lat={{#terria.formatNumber}}{maximumFractionDigits:3}{{Lat}}{{/terria.formatNumber}}</b>."
                     },
                     "legends": [
                         {
