@@ -12,7 +12,7 @@
                     "layer": "space-data-dashboard:NCR_LST_COG",
                     "opacity": 1,
                     "featureInfoTemplate": {
-                        "name": "{{GRAY_INDEX}} W/m2"
+                        "name": "°C"
                     },
                     "legends": [
                         {
