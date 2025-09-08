@@ -56,7 +56,8 @@
                     "layer": "space-data-dashboard:2022_LandCover",
                     "opacity": 1,
                     "featureInfoTemplate": {
-                        "template": "HEY! This is a feature info template"
+                        "template": "{{GRAY_INDEX}} W/m2",
+                        "name": "{{GRAY_INDEX}} W/m2"
                     }
                 }
             ]
