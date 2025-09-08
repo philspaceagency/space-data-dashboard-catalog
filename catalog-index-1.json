@@ -12,7 +12,8 @@
                     "layer": "space-data-dashboard:NCR_LST_COG",
                     "opacity": 1,
                     "featureInfoTemplate": {
-                        "name": "°C"
+                        "name": "°C",
+                        "template": "<div>Name: Try</div>"
                     },
                     "legends": [
                         {
