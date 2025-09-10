@@ -55,7 +55,7 @@
                     "opacity": 1,
                     "allowFeaturePicking": true,
                     "featureInfoTemplate": {
-                        "template": "<strong>Classification: </strong> {{#terria.partialByName}}{{feature.data.GRAY_INDEX}}{{/terria.partialByName}}",
+                        "template": "<strong>Classification: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}}",
                         "partials": {
                             "0": "No Data",
                             "1": "Annual Crop",
