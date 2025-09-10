@@ -55,7 +55,22 @@
                     "opacity": 1,
                     "allowFeaturePicking": true,
                     "featureInfoTemplate": {
-                        "template": "<strong>Classification: </strong> {{GRAY_INDEX}}"
+                        "template": "<strong>Classification: </strong> {{#terria.partialByName}}{{feature.data.GRAY_INDEX}}{{/terria.partialByName}}",
+                        "partials": {
+                            "0": "No Data",
+                            "1": "Annual Crop",
+                            "2": "Aquaculture",
+                            "3": "Barren Land",
+                            "4": "Dense Urban",
+                            "5": "Forest",
+                            "6": "Grassland",
+                            "7": "Mangrove",
+                            "8": "Paddy Rice",
+                            "9": "Permanent Crop",
+                            "10": "Shrubland",
+                            "11": "Mixed Urban",
+                            "12": "Water"
+                        }
                     }
                 }
             ]
