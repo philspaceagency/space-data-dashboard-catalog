@@ -53,7 +53,10 @@
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
                     "layers": "space-data-dashboard:2022_LandCover",
                     "opacity": 1,
-                    "allowFeaturePicking": true
+                    "allowFeaturePicking": true,
+                    "featureInfoTemplate": {
+                        "template": "<strong>Classification: </strong> {{GRAY_INDEX}}"
+                    }
                 }
             ]
         },
@@ -64,10 +67,7 @@
             "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
             "layers": "pinas:pinas-ilocos-point",
             "opacity": 1,
-            "allowFeaturePicking": true,
-            "featureInfoTemplate": {
-                "template": "<strong>Classification: </strong> {{GRAY_INDEX}}"
-            }
+            "allowFeaturePicking": true
         }
     ],
     "corsDomains": [
