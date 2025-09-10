@@ -110,6 +110,7 @@
                         }
                     ],
                     "featureInfoTemplate": {
+                        "showFeatureInfoDownloadWithTemplate": false,
                         "template": "<strong>Classification: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}}",
                         "partials": {
                             "0": "No Data",
