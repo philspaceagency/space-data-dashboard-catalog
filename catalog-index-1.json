@@ -64,7 +64,10 @@
             "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
             "layers": "pinas:pinas-ilocos-point",
             "opacity": 1,
-            "allowFeaturePicking": true
+            "allowFeaturePicking": true,
+            "featureInfoTemplate": {
+                "template": "<strong>Classification: </strong> {{GRAY_INDEX}}"
+            }
         }
     ],
     "corsDomains": [
