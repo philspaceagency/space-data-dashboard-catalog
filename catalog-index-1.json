@@ -54,6 +54,61 @@
                     "layers": "space-data-dashboard:2022_LandCover",
                     "opacity": 1,
                     "allowFeaturePicking": true,
+                    "legends": [
+                        {
+                        "title": "Land Cover Types",
+                        "items": [
+                            {
+                            "title": "Annual Crop",
+                            "color": "#ff7f00"
+                            },
+                            {
+                            "title": "Aquaculture",
+                            "color": "#79a191"
+                            },
+                            {
+                            "title": "Barren Land",
+                            "color": "#a5a5a5"
+                            },
+                            {
+                            "title": "Dense Urban",
+                            "color": "#d7191c"
+                            },
+                            {
+                            "title": "Forest",
+                            "color": "#228b22"
+                            },
+                            {
+                            "title": "Grassland",
+                            "color": "#55d400"
+                            },
+                            {
+                            "title": "Mangrove",
+                            "color": "#778b22"
+                            },
+                            {
+                            "title": "Paddy Rice",
+                            "color": "#05bd9b"
+                            },
+                            {
+                            "title": "Permanent Crop",
+                            "color": "#f0c420"
+                            },
+                            {
+                            "title": "Shrubland",
+                            "color": "#b6ff05"
+                            },
+                            {
+                            "title": "Mixed Urban",
+                            "color": "#d718c1"
+                            },
+                            {
+                            "title": "Water",
+                            "color": "#1f78b4"
+                            }
+                        ]
+                        }
+                    ],
                     "featureInfoTemplate": {
                         "template": "<strong>Classification: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}}",
                         "partials": {
