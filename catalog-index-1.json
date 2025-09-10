@@ -11,6 +11,7 @@
                     "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
                     "layer": "space-data-dashboard:NCR_LST_COG",
                     "opacity": 1,
+                    "allowFeaturePicking": true,
                     "legends": [
                         {
                         "title": "Land Surface Temperature (°C)",
@@ -51,7 +52,8 @@
                     "name": "2022 National Land Cover",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
                     "layer": "space-data-dashboard:2022_LandCover",
-                    "opacity": 1
+                    "opacity": 1,
+                    "allowFeaturePicking": true
                 }
             ]
         },
@@ -61,7 +63,8 @@
             "name": "PINAS Ilocos Participatory Mapping Point",
             "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
             "layer": "pinas:pinas-ilocos-point",
-            "opacity": 1
+            "opacity": 1,
+            "allowFeaturePicking": true
         }
     ],
     "corsDomains": [
