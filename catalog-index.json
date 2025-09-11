@@ -109,7 +109,26 @@
                             }
                         ]
                         }
-                    ]
+                    ],
+                    "featureInfoTemplate": {
+                        "showFeatureInfoDownloadWithTemplate": false,
+                        "template": "<strong>Classification: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}}",
+                        "partials": {
+                            "0": "No Data",
+                            "1": "Annual Crop",
+                            "2": "Aquaculture",
+                            "3": "Barren Land",
+                            "4": "Dense Urban",
+                            "5": "Forest",
+                            "6": "Grassland",
+                            "7": "Mangrove",
+                            "8": "Paddy Rice",
+                            "9": "Permanent Crop",
+                            "10": "Shrubland",
+                            "11": "Mixed Urban",
+                            "12": "Water"
+                        }
+                    }
                 }
             ]
         }
