@@ -138,15 +138,17 @@
             "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
             "layers": "pinas:pinas-ilocos-point",
             "opacity": 1,
-            "legends": {
+            "legends": [
+                {
                 "title": "PINAS Participatory Mapping",
                 "items": [
-                    {
-                        "color": "#ff0000",
-                        "title": "Reported Issues"
-                    }
-                ]
-            }
+                        {
+                            "color": "#ff0000",
+                            "title": "Reported Issues"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "corsDomains": [
