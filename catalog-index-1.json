@@ -9,7 +9,7 @@
                     "type": "wms",
                     "name": "Land Surface Temperature (LST)",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
-                    "layers": "space-data-dashboard:NCR_LST_COG",
+                    "layers": "space-data-dashboard:NCR_LST_Clipped1",
                     "opacity": 1,
                     "allowFeaturePicking": true,
                     "legends": [
