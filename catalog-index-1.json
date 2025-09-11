@@ -144,7 +144,8 @@
                 "items": [
                         {
                             "color": "#ff0000",
-                            "title": "Reported Issues"
+                            "title": "Reported Issues",
+                            "marker": "circle"
                         }
                     ]
                 }
