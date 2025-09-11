@@ -11,6 +11,16 @@
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
                     "layers": "space-data-dashboard:NCR_LST_Clipped1",
                     "opacity": 1,
+                    "featureInfoTemplate": {
+                        "showFeatureInfoDownloadWithTemplate": false,
+                        "template": "<strong>Land Sufrace Temperature: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}}",
+                        "formats": {
+                            "GRAY_INDEX": {
+                                "type": "number",
+                                "maximumFractionDigits": 3
+                            }
+                        }
+                    },
                     "legends": [
                         {
                         "title": "Land Surface Temperature (°C)",
