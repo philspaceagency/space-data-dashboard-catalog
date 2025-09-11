@@ -13,7 +13,7 @@
                     "opacity": 1,
                     "featureInfoTemplate": {
                         "showFeatureInfoDownloadWithTemplate": false,
-                        "template": "<strong>Land Sufrace Temperature: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}}",
+                        "template": "<strong>LST: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} °C",
                         "formats": {
                             "GRAY_INDEX": {
                                 "type": "number",
