@@ -13,10 +13,7 @@
                     "opacity": 1,
                     "legends": [
                         {
-                        "title": "Land Surface Temperature (Celsius)",
-                        "min": 20,
-                        "max": 36,
-                        "units": "°C",
+                        "title": "Land Surface Temperature (°C)",
                         "items": [
                             {
                             "title": "20",
