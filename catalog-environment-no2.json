@@ -7,6 +7,30 @@
                 {
                     "name": "Nitrogen Dioxide (NO2)",
                     "type": "group",
+                     "legends": [
+                        {
+                        "title": "Land Surface Temperature (°C)",
+                        "items": [
+                            {
+                            "title": "20",
+                            "color": "#30123b"
+                            },
+                            {
+                            "color": "#28bceb"
+                            },
+                            {
+                            "color": "#a4fc3c"
+                            },
+                            {
+                            "color": "#fb7e21"
+                            },
+                            {
+                            "title": "36",
+                            "color": "#7a0403"
+                            }
+                        ]
+                        }
+                    ],
                     "members": [
                         {
                             "name": "2019",

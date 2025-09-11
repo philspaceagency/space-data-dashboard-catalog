@@ -17,7 +17,7 @@
                         "formats": {
                             "GRAY_INDEX": {
                                 "type": "number",
-                                "maximumFractionDigits": 3
+                                "maximumFractionDigits": 2
                             }
                         }
                     },
