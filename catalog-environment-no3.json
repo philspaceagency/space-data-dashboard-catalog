@@ -6,8 +6,7 @@
             "members": [
                 {
                     "name": "Nitrogen Dioxide (NO2)",
-                    "type": "wms-group",
-                    "url": "https://geoserver.philsa.gov.ph",
+                    "type": "group",
                     "members": [
                         {
                             "isGeoServer": "true",
