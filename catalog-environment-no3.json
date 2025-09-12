@@ -2,11 +2,11 @@
     "catalog": [
         {
             "name": "Environment",
-            "type": "wms-group",
+            "type": "group",
             "members": [
                 {
                     "name": "Nitrogen Dioxide (NO2)",
-                    "type": "group",
+                    "type": "wms-group",
                      "legends": [
                         {
                         "title": "Land Surface Temperature (°C)",
