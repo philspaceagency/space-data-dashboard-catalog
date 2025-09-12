@@ -7,7 +7,8 @@
                 {
                     "name": "Nitrogen Dioxide (NO2)",
                     "type": "wms-group",
-                     "legends": [
+                    "url": "https://geoserver.philsa.gov.ph",
+                    "legends": [
                         {
                         "title": "Land Surface Temperature (°C)",
                         "items": [
@@ -29,98 +30,6 @@
                             "color": "#7a0403"
                             }
                         ]
-                        }
-                    ],
-                    "members": [
-                        {
-                            "name": "2019",
-                            "type": "group",
-                            "members": [
-                                {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
-                                    "name": "2019 January NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201901_COG"
-                                },
-                                {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
-                                    "name": "2019 February NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201902_COG"
-                                },
-                                {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
-                                    "name": "2019 March NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201903_COG"
-                                },
-                                {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
-                                    "name": "2019 April NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201904_COG"
-                                },
-                                {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
-                                    "name": "2019 May NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201905_COG"
-                                },
-                                {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
-                                    "name": "2019 June NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201906_COG"
-                                },
-                                {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
-                                    "name": "2019 July NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201907_COG"
-                                },
-                                {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
-                                    "name": "2019 August NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201908_COG"
-                                },
-                                {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
-                                    "name": "2019 September NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201909_COG"
-                                },
-                                {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
-                                    "name": "2019 October NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201910_COG"
-                                },
-                                {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
-                                    "name": "2019 November NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201911_COG"
-                                },
-                                {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
-                                    "name": "2019 December NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201912_COG"
-                                }
-                            ]
                         }
                     ]
                 }
