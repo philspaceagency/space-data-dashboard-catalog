@@ -9,15 +9,18 @@
                     "type": "group",
                     "members": [
                         {
-                            "isGeoServer": true,
-                            "type": "wms",
-                            "name": "2019 NO2",
+                            "isGeoServer": "true",
+                            "type": "wmts",
+                            "name": "2019 January NO2",
                             "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                            "layers": "space-data-dashboard:NO2_201901_COG, space-data-dashboard:NO2_201902_COG, space-data-dashboard:NO2_201903_COG, space-data-dashboard:NO2_201904_COG, space-data-dashboard:NO2_201905_COG, space-data-dashboard:NO2_201906_COG, space-data-dashboard:NO2_201907_COG, space-data-dashboard:NO2_201908_COG, space-data-dashboard:NO2_201909_COG, space-data-dashboard:NO2_201910_COG, space-data-dashboard:NO2_201911_COG, space-data-dashboard:NO2_201912_COG",
-                            "opacity": 1,
+                            "layer": "space-data-dashboard:NO2_201901_COG",
                             "legends": [
                                 {
                                     "title": "Nitrogen Dioxide (µmol/m²)",
+                                    "type": "continuous",
+                                    "min": 20,
+                                    "max": 36,
+                                    "units": "µmol/m²",
                                     "items": [
                                         {
                                             "title": "0.00",
