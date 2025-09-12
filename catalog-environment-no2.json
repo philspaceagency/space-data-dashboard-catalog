@@ -293,10 +293,6 @@
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
-                                            "type": "continuous",
-                                            "min": 20,
-                                            "max": 36,
-                                            "units": "µmol/m²",
                                             "items": [
                                                 {
                                                     "title": "0.00",
