@@ -7,40 +7,488 @@
                 {
                     "name": "Nitrogen Dioxide (NO2)",
                     "type": "group",
+                     "legends": [
+                        {
+                        "title": "Land Surface Temperature (°C)",
+                        "items": [
+                            {
+                            "title": "20",
+                            "color": "#30123b"
+                            },
+                            {
+                            "color": "#28bceb"
+                            },
+                            {
+                            "color": "#a4fc3c"
+                            },
+                            {
+                            "color": "#fb7e21"
+                            },
+                            {
+                            "title": "36",
+                            "color": "#7a0403"
+                            }
+                        ]
+                        }
+                    ],
                     "members": [
                         {
-                            "isGeoServer": "true",
-                            "type": "wmts",
-                            "name": "2019 January NO2",
-                            "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                            "layer": "space-data-dashboard:NO2_201901_COG",
-                            "legends": [
+                            "name": "2019",
+                            "type": "group",
+                            "members": [
                                 {
-                                    "title": "Nitrogen Dioxide (µmol/m²)",
-                                    "type": "continuous",
-                                    "min": 20,
-                                    "max": 36,
-                                    "units": "µmol/m²",
-                                    "items": [
+                                    "isGeoServer": "true",
+                                    "type": "wmts",
+                                    "name": "2019 January NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                                    "layer": "space-data-dashboard:NO2_201901_COG",
+                                    "legends": [
                                         {
-                                            "title": "0.00",
-                                            "color": "#30123b"
-                                        },
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "type": "continuous",
+                                            "min": 20,
+                                            "max": 36,
+                                            "units": "µmol/m²",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "title": "37.5",
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "title": "75",
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "title": "112.5",
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": "true",
+                                    "type": "wmts",
+                                    "name": "2019 February NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                                    "layer": "space-data-dashboard:NO2_201902_COG",
+                                    "legends": [
                                         {
-                                            "title": "37.5",
-                                            "color": "#28bceb"
-                                        },
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "type": "continuous",
+                                            "min": 20,
+                                            "max": 36,
+                                            "units": "µmol/m²",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "title": "37.5",
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "title": "75",
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "title": "112.5",
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": "true",
+                                    "type": "wmts",
+                                    "name": "2019 March NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                                    "layer": "space-data-dashboard:NO2_201903_COG",
+                                    "legends": [
                                         {
-                                            "title": "75",
-                                            "color": "#a4fc3c"
-                                        },
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "type": "continuous",
+                                            "min": 20,
+                                            "max": 36,
+                                            "units": "µmol/m²",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "title": "37.5",
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "title": "75",
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "title": "112.5",
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": "true",
+                                    "type": "wmts",
+                                    "name": "2019 April NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                                    "layer": "space-data-dashboard:NO2_201904_COG",
+                                    "legends": [
                                         {
-                                            "title": "112.5",
-                                            "color": "#fb7e21"
-                                        },
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "type": "continuous",
+                                            "min": 20,
+                                            "max": 36,
+                                            "units": "µmol/m²",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "title": "37.5",
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "title": "75",
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "title": "112.5",
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": "true",
+                                    "type": "wmts",
+                                    "name": "2019 May NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                                    "layer": "space-data-dashboard:NO2_201905_COG",
+                                    "legends": [
                                         {
-                                            "title": "150",
-                                            "color": "#7a0403"
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "type": "continuous",
+                                            "min": 20,
+                                            "max": 36,
+                                            "units": "µmol/m²",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "title": "37.5",
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "title": "75",
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "title": "112.5",
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": "true",
+                                    "type": "wmts",
+                                    "name": "2019 June NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                                    "layer": "space-data-dashboard:NO2_201906_COG",
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "type": "continuous",
+                                            "min": 20,
+                                            "max": 36,
+                                            "units": "µmol/m²",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "title": "37.5",
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "title": "75",
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "title": "112.5",
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": "true",
+                                    "type": "wmts",
+                                    "name": "2019 July NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                                    "layer": "space-data-dashboard:NO2_201907_COG",
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "type": "continuous",
+                                            "min": 20,
+                                            "max": 36,
+                                            "units": "µmol/m²",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "title": "37.5",
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "title": "75",
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "title": "112.5",
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": "true",
+                                    "type": "wmts",
+                                    "name": "2019 August NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                                    "layer": "space-data-dashboard:NO2_201908_COG",
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "type": "continuous",
+                                            "min": 20,
+                                            "max": 36,
+                                            "units": "µmol/m²",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "title": "37.5",
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "title": "75",
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "title": "112.5",
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": "true",
+                                    "type": "wmts",
+                                    "name": "2019 September NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                                    "layer": "space-data-dashboard:NO2_201909_COG",
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "type": "continuous",
+                                            "min": 20,
+                                            "max": 36,
+                                            "units": "µmol/m²",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "title": "37.5",
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "title": "75",
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "title": "112.5",
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": "true",
+                                    "type": "wmts",
+                                    "name": "2019 October NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                                    "layer": "space-data-dashboard:NO2_201910_COG",
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "type": "continuous",
+                                            "min": 20,
+                                            "max": 36,
+                                            "units": "µmol/m²",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "title": "37.5",
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "title": "75",
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "title": "112.5",
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": "true",
+                                    "type": "wmts",
+                                    "name": "2019 November NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                                    "layer": "space-data-dashboard:NO2_201911_COG",
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "type": "continuous",
+                                            "min": 20,
+                                            "max": 36,
+                                            "units": "µmol/m²",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "title": "37.5",
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "title": "75",
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "title": "112.5",
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": "true",
+                                    "type": "wmts",
+                                    "name": "2019 December NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
+                                    "layer": "space-data-dashboard:NO2_201912_COG",
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "type": "continuous",
+                                            "min": 20,
+                                            "max": 36,
+                                            "units": "µmol/m²",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "title": "37.5",
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "title": "75",
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "title": "112.5",
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
