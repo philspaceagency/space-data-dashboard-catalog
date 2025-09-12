@@ -27,20 +27,20 @@
                         "items": [
                             {
                             "title": "20",
-                            "color": "#30123b"
+                            "color": "#fff5f0"
                             },
                             {
-                            "color": "#28bceb"
+                            "color": "#fcbea5"
                             },
                             {
-                            "color": "#a4fc3c"
+                            "color": "#fb7050"
                             },
                             {
-                            "color": "#fb7e21"
+                            "color": "#d32020"
                             },
                             {
                             "title": "36",
-                            "color": "#7a0403"
+                            "color": "#67000d"
                             }
                         ]
                         }
