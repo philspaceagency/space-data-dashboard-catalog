@@ -9,40 +9,40 @@
                     "type": "group",
                     "members": [
                         {
-                            "isGeoServer": "true",
-                            "type": "wmts",
+                            "type": "wms-group",
                             "name": "2019 NO2",
                             "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
                             "layer": "2019_NO2",
                             "opacity": 1,
                             "legends": [
                                 {
-                                "title": "Land Surface Temperature (Celsius)",
-                                "min": 20,
-                                "max": 36,
-                                "units": "°C",
-                                "items": [
-                                    {
-                                    "title": "20",
-                                    "color": "#30123b"
-                                    },
-                                    {
-                                    "title": "24",
-                                    "color": "#28bceb"
-                                    },
-                                    {
-                                    "title": "28",
-                                    "color": "#a4fc3c"
-                                    },
-                                    {
-                                    "title": "32",
-                                    "color": "#fb7e21"
-                                    },
-                                    {
-                                    "title": "36",
-                                    "color": "#7a0403"
-                                    }
-                                ]
+                                    "title": "Nitrogen Dioxide (µmol/m²)",
+                                    "type": "continuous",
+                                    "min": 20,
+                                    "max": 36,
+                                    "units": "µmol/m²",
+                                    "items": [
+                                        {
+                                            "title": "0.00",
+                                            "color": "#30123b"
+                                        },
+                                        {
+                                            "title": "37.5",
+                                            "color": "#28bceb"
+                                        },
+                                        {
+                                            "title": "75",
+                                            "color": "#a4fc3c"
+                                        },
+                                        {
+                                            "title": "112.5",
+                                            "color": "#fb7e21"
+                                        },
+                                        {
+                                            "title": "150",
+                                            "color": "#7a0403"
+                                        }
+                                    ]
                                 }
                             ]
                         }
