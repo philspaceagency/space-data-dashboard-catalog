@@ -14,7 +14,7 @@
                             "members": [
                                 {
                                     "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "type": "wms",
                                     "name": "2019 January NO2",
                                     "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
                                     "layer": "space-data-dashboard:NO2_201901_COG",
@@ -27,19 +27,15 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
                                                     "color": "#7a0403"
                                                 }
                                             ]
