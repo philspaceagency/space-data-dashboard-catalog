@@ -13,11 +13,21 @@
                             "type": "group",
                             "members": [
                                 {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "isGeoServer": true,
+                                    "type": "wms",
                                     "name": "2019 January NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201901_COG",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_201901_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
@@ -27,19 +37,16 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
+                                                    "title": "150.00",
                                                     "color": "#7a0403"
                                                 }
                                             ]
@@ -47,11 +54,21 @@
                                     ]
                                 },
                                 {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "isGeoServer": true,
+                                    "type": "wms",
                                     "name": "2019 February NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201902_COG",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_201902_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
@@ -61,19 +78,16 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
+                                                    "title": "150.00",
                                                     "color": "#7a0403"
                                                 }
                                             ]
@@ -81,11 +95,21 @@
                                     ]
                                 },
                                 {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "isGeoServer": true,
+                                    "type": "wms",
                                     "name": "2019 March NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201903_COG",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_201903_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
@@ -95,19 +119,16 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
+                                                    "title": "150.00",
                                                     "color": "#7a0403"
                                                 }
                                             ]
@@ -115,11 +136,21 @@
                                     ]
                                 },
                                 {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "isGeoServer": true,
+                                    "type": "wms",
                                     "name": "2019 April NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201904_COG",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_201904_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
@@ -129,19 +160,16 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
+                                                    "title": "150.00",
                                                     "color": "#7a0403"
                                                 }
                                             ]
@@ -149,11 +177,21 @@
                                     ]
                                 },
                                 {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "isGeoServer": true,
+                                    "type": "wms",
                                     "name": "2019 May NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201905_COG",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_201905_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
@@ -163,19 +201,16 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
+                                                    "title": "150.00",
                                                     "color": "#7a0403"
                                                 }
                                             ]
@@ -183,11 +218,21 @@
                                     ]
                                 },
                                 {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "isGeoServer": true,
+                                    "type": "wms",
                                     "name": "2019 June NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201906_COG",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_201906_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
@@ -197,19 +242,16 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
+                                                    "title": "150.00",
                                                     "color": "#7a0403"
                                                 }
                                             ]
@@ -217,11 +259,21 @@
                                     ]
                                 },
                                 {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "isGeoServer": true,
+                                    "type": "wms",
                                     "name": "2019 July NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201907_COG",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_201907_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
@@ -231,19 +283,16 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
+                                                    "title": "150.00",
                                                     "color": "#7a0403"
                                                 }
                                             ]
@@ -251,11 +300,21 @@
                                     ]
                                 },
                                 {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "isGeoServer": true,
+                                    "type": "wms",
                                     "name": "2019 August NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201908_COG",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_201908_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
@@ -265,19 +324,16 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
+                                                    "title": "150.00",
                                                     "color": "#7a0403"
                                                 }
                                             ]
@@ -285,11 +341,21 @@
                                     ]
                                 },
                                 {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "isGeoServer": true,
+                                    "type": "wms",
                                     "name": "2019 September NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201909_COG",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_201909_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
@@ -299,19 +365,16 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
+                                                    "title": "150.00",
                                                     "color": "#7a0403"
                                                 }
                                             ]
@@ -319,11 +382,21 @@
                                     ]
                                 },
                                 {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "isGeoServer": true,
+                                    "type": "wms",
                                     "name": "2019 October NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201910_COG",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_201910_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
@@ -333,19 +406,16 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
+                                                    "title": "150.00",
                                                     "color": "#7a0403"
                                                 }
                                             ]
@@ -353,11 +423,21 @@
                                     ]
                                 },
                                 {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "isGeoServer": true,
+                                    "type": "wms",
                                     "name": "2019 November NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201911_COG",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_201911_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
@@ -367,19 +447,16 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
+                                                    "title": "150.00",
                                                     "color": "#7a0403"
                                                 }
                                             ]
@@ -387,11 +464,21 @@
                                     ]
                                 },
                                 {
-                                    "isGeoServer": "true",
-                                    "type": "wmts",
+                                    "isGeoServer": true,
+                                    "type": "wms",
                                     "name": "2019 December NO2",
-                                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                                    "layer": "space-data-dashboard:NO2_201912_COG",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_201912_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
                                     "legends": [
                                         {
                                             "title": "Nitrogen Dioxide (µmol/m²)",
@@ -401,19 +488,2008 @@
                                                     "color": "#30123b"
                                                 },
                                                 {
-                                                    "title": "37.5",
                                                     "color": "#28bceb"
                                                 },
                                                 {
-                                                    "title": "75",
                                                     "color": "#a4fc3c"
                                                 },
                                                 {
-                                                    "title": "112.5",
                                                     "color": "#fb7e21"
                                                 },
                                                 {
-                                                    "title": "150",
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "2020",
+                            "type": "group",
+                            "members": [
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2020 January NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202001_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2020 February NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202002_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2020 March NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202003_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2020 April NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202004_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2020 May NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202005_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2020 June NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202006_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2020 July NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202007_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2020 August NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202008_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2020 September NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202009_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2020 October NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202010_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2020 November NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202011_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2020 December NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202012_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "2020",
+                            "type": "group",
+                            "members": [
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2021 January NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202101_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2021 February NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202102_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2021 March NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202103_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2021 April NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202104_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2021 May NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202105_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2021 June NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202106_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2021 July NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202107_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2021 August NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202108_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2021 September NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202109_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2021 October NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202110_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2021 November NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202111_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2021 December NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202112_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "2020",
+                            "type": "group",
+                            "members": [
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2022 January NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202201_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2022 February NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202202_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2022 March NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202203_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2022 April NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202204_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2022 May NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202205_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2022 June NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202206_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2022 July NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202207_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2022 August NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202208_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2022 September NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202209_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2022 October NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202210_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2022 November NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202211_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2022 December NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202212_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "2020",
+                            "type": "group",
+                            "members": [
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2023 January NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202301_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2023 February NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202302_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2023 March NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202303_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2023 April NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202304_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2023 May NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202305_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2023 June NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202306_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2023 July NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202307_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2023 August NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202308_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2023 September NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202309_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2023 October NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202310_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2023 November NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202311_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
+                                                    "color": "#7a0403"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "isGeoServer": true,
+                                    "type": "wms",
+                                    "name": "2023 December NO2",
+                                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                                    "layers": "space-data-dashboard:NO2_202312_COG",
+                                    "featureInfoTemplate": {
+                                        "showFeatureInfoDownloadWithTemplate": false,
+                                        "template": "<strong>NO2: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} µmol/m²",
+                                        "formats": {
+                                            "GRAY_INDEX": {
+                                                "type": "number",
+                                                "maximumFractionDigits": 2
+                                            }
+                                        }
+                                    },
+                                    "legends": [
+                                        {
+                                            "title": "Nitrogen Dioxide (µmol/m²)",
+                                            "items": [
+                                                {
+                                                    "title": "0.00",
+                                                    "color": "#30123b"
+                                                },
+                                                {
+                                                    "color": "#28bceb"
+                                                },
+                                                {
+                                                    "color": "#a4fc3c"
+                                                },
+                                                {
+                                                    "color": "#fb7e21"
+                                                },
+                                                {
+                                                    "title": "150.00",
                                                     "color": "#7a0403"
                                                 }
                                             ]
