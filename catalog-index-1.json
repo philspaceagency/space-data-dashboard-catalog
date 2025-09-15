@@ -159,6 +159,14 @@
             "featureInfoTemplate": {
                 "template": "<div><strong>Office: </strong>{{agency_lgu}}</div> <div><strong>Problems: </strong>{{problems}}</div> <div><strong>Goals: </strong>{{goals}}</div> <div><strong>Site of Interest: </strong>{{site_of_interest}}</div> <div><strong>Probable Cause: </strong>{{probable_cause}}</div> <div><strong>Steps Taken: </strong>{{steps_taken}}</div> <div><strong>Who to Work with: </strong>{{who_to_work_with}}</div> <div><strong>Classification 1: </strong>{{classification_1}}</div> <div><strong>Classification 2: </strong>{{classification_2}}</div>"
             }
+        },
+        {
+            "isGeoServer": true,
+            "type": "wms",
+            "name": "2023 Mangrove Extent",
+            "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+            "layers": "space-data-dashboard:Mangrove_Extent_2023_COG",
+            "opacity": 1
         }
     ],
     "corsDomains": [
