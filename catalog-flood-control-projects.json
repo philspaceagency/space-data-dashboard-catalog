@@ -1,0 +1,66 @@
+{
+    "catalog": [
+        {
+            "name": "Flood Control Projects",
+            "type": "group",
+            "members": [
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "Project 15 2024-02-06",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "flood-control-projects:PR_15_Before_20240206_COG",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "Project 15 2025-08-04",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "flood-control-projects:PR_15_After_20250804_COG",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "Project 25 2023-02-01",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "flood-control-projects:PR_25_Before_20230201_COG",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "Project 25 2025-08-04",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "flood-control-projects:PR_25_After_20250804_COG",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "Project 32 2023-02-01",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "flood-control-projects:PR_32_Before_20230201_COG",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "Project 32 2025-08-04",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "flood-control-projects:PR_32_After_20250804_COG",
+                    "opacity": 1
+                }
+            ]
+        }
+    ],
+    "corsDomains": [
+      "localhost",
+      "corsproxy.com",
+      "geoserver.philsa.gov.ph",
+      "raw.githubusercontent.com",
+      "storage.googleapis.com",
+      "ows.services.dea.ga.gov.au"
+    ]
+}
