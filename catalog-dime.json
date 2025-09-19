@@ -9,7 +9,7 @@
                     "type": "wms",
                     "name": "Project 15 2024-02-06",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
-                    "layers": "flood-control-projects:PR_15_Before_20240206_COG",
+                    "layers": "dime:PR_15_Before_20240206_COG",
                     "opacity": 1
                 },
                 {
@@ -17,7 +17,7 @@
                     "type": "wms",
                     "name": "Project 15 2025-08-04",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
-                    "layers": "flood-control-projects:PR_15_After_20250804_COG",
+                    "layers": "dime:PR_15_After_20250804_COG",
                     "opacity": 1
                 },
                 {
@@ -25,7 +25,7 @@
                     "type": "wms",
                     "name": "Project 20 2024-02-06",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
-                    "layers": "flood-control-projects:PR_20_Before_20240206_COG",
+                    "layers": "dime:PR_20_Before_20240206_COG",
                     "opacity": 1
                 },
                 {
@@ -33,7 +33,7 @@
                     "type": "wms",
                     "name": "Project 20 2024-03-07",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
-                    "layers": "flood-control-projects:PR_20_After_20240307_COG",
+                    "layers": "dime:PR_20_After_20240307_COG",
                     "opacity": 1
                 },
                 {
@@ -41,7 +41,7 @@
                     "type": "wms",
                     "name": "Project 25 2023-02-01",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
-                    "layers": "flood-control-projects:PR_25_Before_20230201_COG",
+                    "layers": "dime:PR_25_Before_20230201_COG",
                     "opacity": 1
                 },
                 {
@@ -49,7 +49,7 @@
                     "type": "wms",
                     "name": "Project 25 2025-08-04",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
-                    "layers": "flood-control-projects:PR_25_After_20250804_COG",
+                    "layers": "dime:PR_25_After_20250804_COG",
                     "opacity": 1
                 },
                 {
@@ -57,7 +57,7 @@
                     "type": "wms",
                     "name": "Project 32 2023-02-01",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
-                    "layers": "flood-control-projects:PR_32_Before_20230201_COG",
+                    "layers": "dime:PR_32_Before_20230201_COG",
                     "opacity": 1
                 },
                 {
@@ -65,7 +65,7 @@
                     "type": "wms",
                     "name": "Project 32 2025-08-04",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
-                    "layers": "flood-control-projects:PR_32_After_20250804_COG",
+                    "layers": "dime:PR_32_After_20250804_COG",
                     "opacity": 1
                 },
                 {
@@ -73,7 +73,7 @@
                     "type": "wms",
                     "name": "Project 37 2023-02-01",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
-                    "layers": "flood-control-projects:PR_37_Before_20230201_COG",
+                    "layers": "dime:PR_37_Before_20230201_COG",
                     "opacity": 1
                 },
                 {
@@ -81,7 +81,39 @@
                     "type": "wms",
                     "name": "Project 37 2023-12-13",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
-                    "layers": "flood-control-projects:PR_37_After_20231213_COG",
+                    "layers": "dime:PR_37_After_20231213_COG",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "BlackSky 2021-03-04",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "dime:BSG_108_20210304_051944_6018635_COG",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "BlackSky 2023-03-21",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "dime:BSG_109_20230321_050255_73202585_COG",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "BlackSky 2024-10-12",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "dime:BSG_109_20241012_054410_284872790_COG",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "BlackSky 2024-09-03",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "dime:BSG_119_20240903_071630_271923742_COG",
                     "opacity": 1
                 }
             ]
