@@ -147,7 +147,22 @@
                     "name": "2024 October GF3 Naga Flood Extent",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
                     "layers": "space-data-dashboard:202410_GF3-Naga_FloodExtent-v2",
-                    "opacity": 1
+                    "opacity": 1,
+                    "legends": [
+                        {
+                            "title": "Flood Hazard Extent",
+                            "items": [
+                                {
+                                "title": "Flood",
+                                "color": "#0000FF"
+                                }
+                            ]
+                        }
+                    ],
+                    "featureInfoTemplate": {
+                        "showFeatureInfoDownloadWithTemplate": false,
+                        "template": "Flood Hazard Extent"
+                    }
                 },
                 {
                     "isGeoServer": true,
@@ -176,7 +191,7 @@
                 {
                     "isGeoServer": true,
                     "type": "wms",
-                    "name": "2025 July ITCZ S1A Luzon Crising Flood Extent",
+                    "name": "2025 July ITCZ S1A Crising Flood Extent",
                     "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
                     "layers": "space-data-dashboard:20250706_Crising_S1A_Flood_Luzon",
                     "opacity": 1
