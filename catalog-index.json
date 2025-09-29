@@ -5,38 +5,42 @@
             "type": "group",
             "members": [
                 {
-                    "isGeoServer": "true",
-                    "type": "wmts",
+                    "isGeoServer": true,
+                    "type": "wms",
                     "name": "Land Surface Temperature (LST)",
-                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                    "layer": "space-data-dashboard:NCR_LST_Clipped1",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "space-data-dashboard:NCR_LST_Clipped1",
                     "opacity": 1,
+                    "featureInfoTemplate": {
+                        "showFeatureInfoDownloadWithTemplate": false,
+                        "template": "<strong>LST: </strong> {{#terria.partialByName}}{{GRAY_INDEX}}{{/terria.partialByName}} °C",
+                        "formats": {
+                            "GRAY_INDEX": {
+                                "type": "number",
+                                "maximumFractionDigits": 2
+                            }
+                        }
+                    },
                     "legends": [
                         {
-                        "title": "Land Surface Temperature (Celsius)",
-                        "min": 20,
-                        "max": 36,
-                        "units": "°C",
+                        "title": "Land Surface Temperature (°C)",
                         "items": [
                             {
                             "title": "20",
-                            "color": "#30123b"
+                            "color": "#fff5f0"
                             },
                             {
-                            "title": "24",
-                            "color": "#28bceb"
+                            "color": "#fcbea5"
                             },
                             {
-                            "title": "28",
-                            "color": "#a4fc3c"
+                            "color": "#fb7050"
                             },
                             {
-                            "title": "32",
-                            "color": "#fb7e21"
+                            "color": "#d32020"
                             },
                             {
                             "title": "36",
-                            "color": "#7a0403"
+                            "color": "#67000d"
                             }
                         ]
                         }
@@ -49,12 +53,13 @@
             "type": "group",
             "members": [
                 {
-                    "isGeoServer": "true",
-                    "type": "wmts",
+                    "isGeoServer": true,
+                    "type": "wms",
                     "name": "2022 National Land Cover",
-                    "url": "https://geoserver.philsa.gov.ph/geoserver/gwc/service/wmts?service=WMTS&acceptVersions=1.0.0&request=GetCapabilities",
-                    "layer": "space-data-dashboard:2022_LandCover",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "space-data-dashboard:2022_LandCover",
                     "opacity": 1,
+                    "allowFeaturePicking": true,
                     "legends": [
                         {
                         "title": "Land Cover Types",
