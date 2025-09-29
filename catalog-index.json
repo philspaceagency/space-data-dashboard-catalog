@@ -136,6 +136,52 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "Flood Hazard",
+            "type": "group",
+            "members": [
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "2024 October GF3 Naga Flood Extent",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "space-data-dashboard:202410_GF3-Naga_FloodExtent-v2",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "2024 November RCM2 Cagayan Flood Extent",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "space-data-dashboard:20241112_RCM2_Flood_Cagayan",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "2024 November GF3 Naga Flood Extent",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "space-data-dashboard:20241119_GF3_Flood_Naga",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "2025 June ITCZ S1A BARMM Flood Extent",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "space-data-dashboard:20250522_ITCZ_S1A_Flood_BARMM",
+                    "opacity": 1
+                },
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "2025 July ITCZ S1A Luzon Crising Flood Extent",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "space-data-dashboard:20250706_Crising_S1A_Flood_Luzon",
+                    "opacity": 1
+                }
+            ]
         }
     ],
     "corsDomains": [
