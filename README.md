@@ -130,4 +130,4 @@ git push -u origin main
 ### :pushpin: Missing Dataset
 | Section | Dataset | Description | Issue |
 | ----- | ----- | ----- | ----- |
-| Environment | 2023 Mangrove Map | National mangrove map of the Philippines using satellite data and citizen science validation. | Current shapefile has geometry problems when loaded to PostGIS. |
+| Environment | 2023 Mangrove Map | National mangrove map of the Philippines using satellite data and citizen science validation. | Current shapefile has geometry problems when uploaded to PostGIS. |
