@@ -63,7 +63,7 @@ git push -u origin main
 ### Adding PINAS Workshop data
 1. Once added in Geoserver, create new json file for the PINAS workshop data e.g. ABCDEF.json.
 2. Fill the empty json file with the definition of the data. Example shown below.
-```
+```json
 {
     "catalog": [
         {
