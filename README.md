@@ -126,3 +126,8 @@ git push -u origin main
 | Flood Hazard | Various Flood Extent Map | Different flood extent shapefiles across the Philippines using different sensors. | 1 |
 | Environment | Nitrogen Dioxide (NO2) | Monthly average NO2 from 2019 to 2023. This dataset is from TROPOMI instrument onboard Sentinel-5. | 58 |
 | PINAS Workshop | Various dataset from PINAS workshops | Digital shapefile of participatory mapping conducted during PINAS workshops. | 6 |
+
+### :pushpin: Missing Dataset
+| Section | Dataset | Description |
+| ----- | ----- | ----- |
+| Environment | 2023 Mangrove Map | National mangrove map of the Philippines using satellite data and citizen science validation. |
