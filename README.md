@@ -125,7 +125,7 @@ git push -u origin main
 | Land Cover and Land Use | 2022 National Land Cover | Land cover classification map of the Philippines. | 1 |
 | Flood Hazard | Various Flood Extent Map | Different flood extent shapefiles across the Philippines using different sensors. | 1 |
 | Environment | Nitrogen Dioxide (NO2) | Monthly average NO2 from 2019 to 2023. This dataset is from TROPOMI instrument onboard Sentinel-5. | 58 |
-| PINAS Workshop | Various dataset from PINAS workshops | Digital shapefile of participatory mapping conducted during PINAS workshops. | 6 |
+| PINAS Workshop | Various dataset from PINAS workshops | Digital shapefile of participatory mapping conducted during PINAS workshops. Dataset can be viewed using dedicated links. | 6 |
 
 ### :pushpin: Missing Dataset
 | Section | Dataset | Description | Issue |
