@@ -109,9 +109,13 @@ git push -u origin main
 4. Visit the Space Data Dashboard with PINAS data through the link following the filename of json e.g. https://spacedata.philsa.gov.ph/#ABCDEF
 
 ### :pushpin: List of PINAS Catalog
-1. PINAS Ilocos: https://spacedata.philsa.gov.ph/#DTQNX9
-2. PINAS Aklan: https://spacedata.philsa.gov.ph/#R814CO
-3. PINAS Davao: https://spacedata.philsa.gov.ph/#0KFK4G
-4. PINAS Zamboanga: https://spacedata.philsa.gov.ph/#9BP768
-5. PINAS Mindoro: https://spacedata.philsa.gov.ph/#0PX9ED
-6. PINAS All: https://spacedata.philsa.gov.ph/#P1NAS
+| Area | Code | Link |
+| ----- | ----- | ----- |
+| All | P1NAS | https://spacedata.philsa.gov.ph/#P1NAS |
+| Ilocos | DTQNX9 | https://spacedata.philsa.gov.ph/#DTQNX9 |
+| Aklan | R814CO | https://spacedata.philsa.gov.ph/#R814CO |
+| Davao | 0KFK4G | https://spacedata.philsa.gov.ph/#0KFK4G |
+| Zamboanga | 9BP768 | https://spacedata.philsa.gov.ph/#9BP768 |
+| Mindoro | 0PX9ED | https://spacedata.philsa.gov.ph/#0PX9ED |
+
+### :pushpin: Dataset List as of 07 October 2025
