@@ -128,6 +128,6 @@ git push -u origin main
 | PINAS Workshop | Various dataset from PINAS workshops | Digital shapefile of participatory mapping conducted during PINAS workshops. | 6 |
 
 ### :pushpin: Missing Dataset
-| Section | Dataset | Description |
+| Section | Dataset | Description | Issue |
 | ----- | ----- | ----- |
-| Environment | 2023 Mangrove Map | National mangrove map of the Philippines using satellite data and citizen science validation. |
+| Environment | 2023 Mangrove Map | National mangrove map of the Philippines using satellite data and citizen science validation. | Current shapefile has geometry issues when loaded to PostGIS. |
