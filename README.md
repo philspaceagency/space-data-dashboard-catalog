@@ -119,3 +119,8 @@ git push -u origin main
 | Mindoro | 0PX9ED | https://spacedata.philsa.gov.ph/#0PX9ED |
 
 ### :pushpin: Dataset List as of 07 October 2025
+| Section | Dataset | Description |
+| ----- | ----- | ----- |
+| Climate | Land Surface Temperature (LST) of Manila | description |
+| Land Cover and Land Use | 2022 National Land Cover | description |
+| Flood Hazard | Various Flood Extent Map | description |
