@@ -1,10 +1,15 @@
 # space-data-dashboard-catalog
 
+### :pushpin: Jump to repository
+1. [geoserver-docker](https://github.com/philspaceagency/geoserver-docker) - Add data to Geoserver
+2. [space-data-dashboard-terriajs-docker](https://github.com/philspaceagency/space-data-dashboard-terriajs-docker) - Add data to Space Data Dashboard catalog
+
 ### :pushpin: How to add data to Space Data Dashboard
 1. Clone this repository
 ```
-
+git clone git@github.com:philspaceagency/space-data-dashboard-catalog.git
 ```
+2. 
 
 ### :pushpin: PINAS Catalog
 1. PINAS Ilocos: https://spacedata.philsa.gov.ph/#DTQNX9
