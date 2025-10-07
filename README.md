@@ -121,6 +121,8 @@ git push -u origin main
 ### :pushpin: Dataset List as of 07 October 2025
 | Section | Dataset | Description |
 | ----- | ----- | ----- |
-| Climate | Land Surface Temperature (LST) of Manila | description |
-| Land Cover and Land Use | 2022 National Land Cover | description |
-| Flood Hazard | Various Flood Extent Map | description |
+| Climate | Land Surface Temperature (LST) | Land surface temparature of Manila. |
+| Land Cover and Land Use | 2022 National Land Cover | Land cover classification map of the Philippines. |
+| Flood Hazard | Various Flood Extent Map | Different flood extent shapefiles across the Philippines using different sensors. |
+| Environment | Nitrogen Dioxide (NO2) | Monthly average NO2 from 2019 to 2023. This dataset is from TROPOMI instrument onboard Sentinel-5. |
+| PINAS Workshop | Various dataset from PINAS workshops | Digital shapefile of participatory mapping conducted during PINAS workshops. |
