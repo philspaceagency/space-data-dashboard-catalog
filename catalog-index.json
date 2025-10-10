@@ -257,6 +257,41 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "Vegetation",
+            "type": "group",
+            "members": [
+                {
+                    "isGeoServer": true,
+                    "type": "wms",
+                    "name": "2023 Mangrove Map",
+                    "url": "https://geoserver.philsa.gov.ph/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+                    "layers": "space-data-dashboard:Mangrove_Extent_Map_2023",
+                    "opacity": 1,
+                    "legends": [
+                        {
+                            "title": "Manrove Extent",
+                            "items": [
+                                {
+                                "title": "Mangrove",
+                                "color": "#008000"
+                                }
+                            ]
+                        }
+                    ],
+                    "featureInfoTemplate": {
+                        "showFeatureInfoDownloadWithTemplate": false,
+                        "template": "<strong>Mangrove Area: </strong> {{#terria.partialByName}}{{Area_sqm}}{{/terria.partialByName}} m²",
+                        "formats": {
+                            "GRAY_INDEX": {
+                                "type": "number",
+                                "maximumFractionDigits": 2
+                            }
+                        }
+                    }
+                }
+            ]
         }
     ],
     "corsDomains": [
